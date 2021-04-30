@@ -1,0 +1,2452 @@
+[
+  {
+    "codepoint": "0000",
+    "iana": "TLS_NULL_WITH_NULL_NULL",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_NULL_WITH_NULL_NULL"
+  },
+  {
+    "codepoint": "0001",
+    "iana": "TLS_RSA_WITH_NULL_MD5",
+    "openssl": null,
+    "gnutls": "RSA_NULL_MD5",
+    "nss": "TLS_RSA_WITH_NULL_MD5"
+  },
+  {
+    "codepoint": "0002",
+    "iana": "TLS_RSA_WITH_NULL_SHA",
+    "openssl": null,
+    "gnutls": "RSA_NULL_SHA1",
+    "nss": "TLS_RSA_WITH_NULL_SHA"
+  },
+  {
+    "codepoint": "0003",
+    "iana": "TLS_RSA_EXPORT_WITH_RC4_40_MD5",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_RSA_EXPORT_WITH_RC4_40_MD5"
+  },
+  {
+    "codepoint": "0004",
+    "iana": "TLS_RSA_WITH_RC4_128_MD5",
+    "openssl": null,
+    "gnutls": "RSA_ARCFOUR_128_MD5",
+    "nss": "TLS_RSA_WITH_RC4_128_MD5"
+  },
+  {
+    "codepoint": "0005",
+    "iana": "TLS_RSA_WITH_RC4_128_SHA",
+    "openssl": null,
+    "gnutls": "RSA_ARCFOUR_128_SHA1",
+    "nss": "TLS_RSA_WITH_RC4_128_SHA"
+  },
+  {
+    "codepoint": "0006",
+    "iana": "TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5"
+  },
+  {
+    "codepoint": "0007",
+    "iana": "TLS_RSA_WITH_IDEA_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_RSA_WITH_IDEA_CBC_SHA"
+  },
+  {
+    "codepoint": "0008",
+    "iana": "TLS_RSA_EXPORT_WITH_DES40_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_RSA_EXPORT_WITH_DES40_CBC_SHA"
+  },
+  {
+    "codepoint": "0009",
+    "iana": "TLS_RSA_WITH_DES_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_RSA_WITH_DES_CBC_SHA"
+  },
+  {
+    "codepoint": "000A",
+    "iana": "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+    "openssl": null,
+    "gnutls": "RSA_3DES_EDE_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "000B",
+    "iana": "TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "000C",
+    "iana": "TLS_DH_DSS_WITH_DES_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "000D",
+    "iana": "TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "000E",
+    "iana": "TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "000F",
+    "iana": "TLS_DH_RSA_WITH_DES_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0010",
+    "iana": "TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA"
+  },
+  {
+    "codepoint": "0011",
+    "iana": "TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA"
+  },
+  {
+    "codepoint": "0012",
+    "iana": "TLS_DHE_DSS_WITH_DES_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_DHE_DSS_WITH_DES_CBC_SHA"
+  },
+  {
+    "codepoint": "0013",
+    "iana": "TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA",
+    "openssl": null,
+    "gnutls": "DHE_DSS_3DES_EDE_CBC_SHA1",
+    "nss": "TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA"
+  },
+  {
+    "codepoint": "0014",
+    "iana": "TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA"
+  },
+  {
+    "codepoint": "0015",
+    "iana": "TLS_DHE_RSA_WITH_DES_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_DHE_RSA_WITH_DES_CBC_SHA"
+  },
+  {
+    "codepoint": "0016",
+    "iana": "TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA",
+    "openssl": null,
+    "gnutls": "DHE_RSA_3DES_EDE_CBC_SHA1",
+    "nss": "TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA"
+  },
+  {
+    "codepoint": "0017",
+    "iana": "TLS_DH_anon_EXPORT_WITH_RC4_40_MD5",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_DH_anon_EXPORT_WITH_RC4_40_MD5"
+  },
+  {
+    "codepoint": "0018",
+    "iana": "TLS_DH_anon_WITH_RC4_128_MD5",
+    "openssl": null,
+    "gnutls": "DH_ANON_ARCFOUR_128_MD5",
+    "nss": "TLS_DH_anon_WITH_RC4_128_MD5"
+  },
+  {
+    "codepoint": "0019",
+    "iana": "TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA"
+  },
+  {
+    "codepoint": "001A",
+    "iana": "TLS_DH_anon_WITH_DES_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "001B",
+    "iana": "TLS_DH_anon_WITH_3DES_EDE_CBC_SHA",
+    "openssl": null,
+    "gnutls": "DH_ANON_3DES_EDE_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "001E",
+    "iana": "TLS_KRB5_WITH_DES_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "001F",
+    "iana": "TLS_KRB5_WITH_3DES_EDE_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0020",
+    "iana": "TLS_KRB5_WITH_RC4_128_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0021",
+    "iana": "TLS_KRB5_WITH_IDEA_CBC_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0022",
+    "iana": "TLS_KRB5_WITH_DES_CBC_MD5",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0023",
+    "iana": "TLS_KRB5_WITH_3DES_EDE_CBC_MD5",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0024",
+    "iana": "TLS_KRB5_WITH_RC4_128_MD5",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0025",
+    "iana": "TLS_KRB5_WITH_IDEA_CBC_MD5",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0026",
+    "iana": "TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0027",
+    "iana": "TLS_KRB5_EXPORT_WITH_RC2_CBC_40_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0028",
+    "iana": "TLS_KRB5_EXPORT_WITH_RC4_40_SHA",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0029",
+    "iana": "TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "002A",
+    "iana": "TLS_KRB5_EXPORT_WITH_RC2_CBC_40_MD5",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "002B",
+    "iana": "TLS_KRB5_EXPORT_WITH_RC4_40_MD5",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "002C",
+    "iana": "TLS_PSK_WITH_NULL_SHA",
+    "openssl": "PSK-NULL-SHA",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "002D",
+    "iana": "TLS_DHE_PSK_WITH_NULL_SHA",
+    "openssl": "DHE-PSK-NULL-SHA",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "002E",
+    "iana": "TLS_RSA_PSK_WITH_NULL_SHA",
+    "openssl": "RSA-PSK-NULL-SHA",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "002F",
+    "iana": "TLS_RSA_WITH_AES_128_CBC_SHA",
+    "openssl": "AES128-SHA",
+    "gnutls": "RSA_AES_128_CBC_SHA1",
+    "nss": "TLS_RSA_WITH_AES_128_CBC_SHA"
+  },
+  {
+    "codepoint": "0030",
+    "iana": "TLS_DH_DSS_WITH_AES_128_CBC_SHA",
+    "openssl": "DH-DSS-AES128-SHA",
+    "gnutls": null,
+    "nss": "TLS_DH_DSS_WITH_AES_128_CBC_SHA"
+  },
+  {
+    "codepoint": "0031",
+    "iana": "TLS_DH_RSA_WITH_AES_128_CBC_SHA",
+    "openssl": "DH-RSA-AES128-SHA",
+    "gnutls": null,
+    "nss": "TLS_DH_RSA_WITH_AES_128_CBC_SHA"
+  },
+  {
+    "codepoint": "0032",
+    "iana": "TLS_DHE_DSS_WITH_AES_128_CBC_SHA",
+    "openssl": "DHE-DSS-AES128-SHA",
+    "gnutls": "DHE_DSS_AES_128_CBC_SHA1",
+    "nss": "TLS_DHE_DSS_WITH_AES_128_CBC_SHA"
+  },
+  {
+    "codepoint": "0033",
+    "iana": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA",
+    "openssl": "DHE-RSA-AES128-SHA",
+    "gnutls": "DHE_RSA_AES_128_CBC_SHA1",
+    "nss": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA"
+  },
+  {
+    "codepoint": "0034",
+    "iana": "TLS_DH_anon_WITH_AES_128_CBC_SHA",
+    "openssl": "ADH-AES128-SHA",
+    "gnutls": "DH_ANON_AES_128_CBC_SHA1",
+    "nss": "TLS_DH_anon_WITH_AES_128_CBC_SHA"
+  },
+  {
+    "codepoint": "0035",
+    "iana": "TLS_RSA_WITH_AES_256_CBC_SHA",
+    "openssl": "AES256-SHA",
+    "gnutls": "RSA_AES_256_CBC_SHA1",
+    "nss": "TLS_RSA_WITH_AES_256_CBC_SHA"
+  },
+  {
+    "codepoint": "0036",
+    "iana": "TLS_DH_DSS_WITH_AES_256_CBC_SHA",
+    "openssl": "DH-DSS-AES256-SHA",
+    "gnutls": null,
+    "nss": "TLS_DH_DSS_WITH_AES_256_CBC_SHA"
+  },
+  {
+    "codepoint": "0037",
+    "iana": "TLS_DH_RSA_WITH_AES_256_CBC_SHA",
+    "openssl": "DH-RSA-AES256-SHA",
+    "gnutls": null,
+    "nss": "TLS_DH_RSA_WITH_AES_256_CBC_SHA"
+  },
+  {
+    "codepoint": "0038",
+    "iana": "TLS_DHE_DSS_WITH_AES_256_CBC_SHA",
+    "openssl": "DHE-DSS-AES256-SHA",
+    "gnutls": "DHE_DSS_AES_256_CBC_SHA1",
+    "nss": "TLS_DHE_DSS_WITH_AES_256_CBC_SHA"
+  },
+  {
+    "codepoint": "0039",
+    "iana": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA",
+    "openssl": "DHE-RSA-AES256-SHA",
+    "gnutls": "DHE_RSA_AES_256_CBC_SHA1",
+    "nss": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA"
+  },
+  {
+    "codepoint": "003A",
+    "iana": "TLS_DH_anon_WITH_AES_256_CBC_SHA",
+    "openssl": "ADH-AES256-SHA",
+    "gnutls": "DH_ANON_AES_256_CBC_SHA1",
+    "nss": "TLS_DH_anon_WITH_AES_256_CBC_SHA"
+  },
+  {
+    "codepoint": "003B",
+    "iana": "TLS_RSA_WITH_NULL_SHA256",
+    "openssl": "NULL-SHA256",
+    "gnutls": "RSA_NULL_SHA256",
+    "nss": "TLS_RSA_WITH_NULL_SHA256"
+  },
+  {
+    "codepoint": "003C",
+    "iana": "TLS_RSA_WITH_AES_128_CBC_SHA256",
+    "openssl": "AES128-SHA256",
+    "gnutls": "RSA_AES_128_CBC_SHA256",
+    "nss": "TLS_RSA_WITH_AES_128_CBC_SHA256"
+  },
+  {
+    "codepoint": "003D",
+    "iana": "TLS_RSA_WITH_AES_256_CBC_SHA256",
+    "openssl": "AES256-SHA256",
+    "gnutls": "RSA_AES_256_CBC_SHA256",
+    "nss": "TLS_RSA_WITH_AES_256_CBC_SHA256"
+  },
+  {
+    "codepoint": "003E",
+    "iana": "TLS_DH_DSS_WITH_AES_128_CBC_SHA256",
+    "openssl": "DH-DSS-AES128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "003F",
+    "iana": "TLS_DH_RSA_WITH_AES_128_CBC_SHA256",
+    "openssl": "DH-RSA-AES128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0040",
+    "iana": "TLS_DHE_DSS_WITH_AES_128_CBC_SHA256",
+    "openssl": "DHE-DSS-AES128-SHA256",
+    "gnutls": "DHE_DSS_AES_128_CBC_SHA256",
+    "nss": "TLS_DHE_DSS_WITH_AES_128_CBC_SHA256"
+  },
+  {
+    "codepoint": "0041",
+    "iana": "TLS_RSA_WITH_CAMELLIA_128_CBC_SHA",
+    "openssl": "CAMELLIA128-SHA",
+    "gnutls": null,
+    "nss": "TLS_RSA_WITH_CAMELLIA_128_CBC_SHA"
+  },
+  {
+    "codepoint": "0042",
+    "iana": "TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA",
+    "openssl": "DH-DSS-CAMELLIA128-SHA",
+    "gnutls": null,
+    "nss": "TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA"
+  },
+  {
+    "codepoint": "0043",
+    "iana": "TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA",
+    "openssl": "DH-RSA-CAMELLIA128-SHA",
+    "gnutls": null,
+    "nss": "TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA"
+  },
+  {
+    "codepoint": "0044",
+    "iana": "TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA",
+    "openssl": "DHE-DSS-CAMELLIA128-SHA",
+    "gnutls": null,
+    "nss": "TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA"
+  },
+  {
+    "codepoint": "0045",
+    "iana": "TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA",
+    "openssl": "DHE-RSA-CAMELLIA128-SHA",
+    "gnutls": null,
+    "nss": "TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA"
+  },
+  {
+    "codepoint": "0046",
+    "iana": "TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA",
+    "openssl": "ADH-CAMELLIA128-SHA",
+    "gnutls": null,
+    "nss": "TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA"
+  },
+  {
+    "codepoint": "0067",
+    "iana": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+    "openssl": "DHE-RSA-AES128-SHA256",
+    "gnutls": "DHE_RSA_AES_128_CBC_SHA256",
+    "nss": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256"
+  },
+  {
+    "codepoint": "0068",
+    "iana": "TLS_DH_DSS_WITH_AES_256_CBC_SHA256",
+    "openssl": "DH-DSS-AES256-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0069",
+    "iana": "TLS_DH_RSA_WITH_AES_256_CBC_SHA256",
+    "openssl": "DH-RSA-AES256-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "006A",
+    "iana": "TLS_DHE_DSS_WITH_AES_256_CBC_SHA256",
+    "openssl": "DHE-DSS-AES256-SHA256",
+    "gnutls": "DHE_DSS_AES_256_CBC_SHA256",
+    "nss": "TLS_DHE_DSS_WITH_AES_256_CBC_SHA256"
+  },
+  {
+    "codepoint": "006B",
+    "iana": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+    "openssl": "DHE-RSA-AES256-SHA256",
+    "gnutls": "DHE_RSA_AES_256_CBC_SHA256",
+    "nss": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256"
+  },
+  {
+    "codepoint": "006C",
+    "iana": "TLS_DH_anon_WITH_AES_128_CBC_SHA256",
+    "openssl": "ADH-AES128-SHA256",
+    "gnutls": "DH_ANON_AES_128_CBC_SHA256",
+    "nss": null
+  },
+  {
+    "codepoint": "006D",
+    "iana": "TLS_DH_anon_WITH_AES_256_CBC_SHA256",
+    "openssl": "ADH-AES256-SHA256",
+    "gnutls": "DH_ANON_AES_256_CBC_SHA256",
+    "nss": null
+  },
+  {
+    "codepoint": "0084",
+    "iana": "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA",
+    "openssl": "CAMELLIA256-SHA",
+    "gnutls": null,
+    "nss": "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA"
+  },
+  {
+    "codepoint": "0085",
+    "iana": "TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA",
+    "openssl": "DH-DSS-CAMELLIA256-SHA",
+    "gnutls": null,
+    "nss": "TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA"
+  },
+  {
+    "codepoint": "0086",
+    "iana": "TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA",
+    "openssl": "DH-RSA-CAMELLIA256-SHA",
+    "gnutls": null,
+    "nss": "TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA"
+  },
+  {
+    "codepoint": "0087",
+    "iana": "TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA",
+    "openssl": "DHE-DSS-CAMELLIA256-SHA",
+    "gnutls": null,
+    "nss": "TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA"
+  },
+  {
+    "codepoint": "0088",
+    "iana": "TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA",
+    "openssl": "DHE-RSA-CAMELLIA256-SHA",
+    "gnutls": null,
+    "nss": "TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA"
+  },
+  {
+    "codepoint": "0089",
+    "iana": "TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA",
+    "openssl": "ADH-CAMELLIA256-SHA",
+    "gnutls": null,
+    "nss": "TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA"
+  },
+  {
+    "codepoint": "008A",
+    "iana": "TLS_PSK_WITH_RC4_128_SHA",
+    "openssl": "PSK-RC4-SHA",
+    "gnutls": "PSK_ARCFOUR_128_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "008B",
+    "iana": "TLS_PSK_WITH_3DES_EDE_CBC_SHA",
+    "openssl": "PSK-3DES-EDE-CBC-SHA",
+    "gnutls": "PSK_3DES_EDE_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "008C",
+    "iana": "TLS_PSK_WITH_AES_128_CBC_SHA",
+    "openssl": "PSK-AES128-CBC-SHA",
+    "gnutls": "PSK_AES_128_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "008D",
+    "iana": "TLS_PSK_WITH_AES_256_CBC_SHA",
+    "openssl": "PSK-AES256-CBC-SHA",
+    "gnutls": "PSK_AES_256_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "008E",
+    "iana": "TLS_DHE_PSK_WITH_RC4_128_SHA",
+    "openssl": "DHE-PSK-RC4-SHA",
+    "gnutls": "DHE_PSK_ARCFOUR_128_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "008F",
+    "iana": "TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA",
+    "openssl": "DHE-PSK-3DES-EDE-CBC-SHA",
+    "gnutls": "DHE_PSK_3DES_EDE_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "0090",
+    "iana": "TLS_DHE_PSK_WITH_AES_128_CBC_SHA",
+    "openssl": "DHE-PSK-AES128-CBC-SHA",
+    "gnutls": "DHE_PSK_AES_128_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "0091",
+    "iana": "TLS_DHE_PSK_WITH_AES_256_CBC_SHA",
+    "openssl": "DHE-PSK-AES256-CBC-SHA",
+    "gnutls": "DHE_PSK_AES_256_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "0092",
+    "iana": "TLS_RSA_PSK_WITH_RC4_128_SHA",
+    "openssl": "RSA-PSK-RC4-SHA",
+    "gnutls": "RSA_PSK_ARCFOUR_128_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "0093",
+    "iana": "TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA",
+    "openssl": "RSA-PSK-3DES-EDE-CBC-SHA",
+    "gnutls": "RSA_PSK_3DES_EDE_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "0094",
+    "iana": "TLS_RSA_PSK_WITH_AES_128_CBC_SHA",
+    "openssl": "RSA-PSK-AES128-CBC-SHA",
+    "gnutls": "RSA_PSK_AES_128_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "0095",
+    "iana": "TLS_RSA_PSK_WITH_AES_256_CBC_SHA",
+    "openssl": "RSA-PSK-AES256-CBC-SHA",
+    "gnutls": "RSA_PSK_AES_256_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "0096",
+    "iana": "TLS_RSA_WITH_SEED_CBC_SHA",
+    "openssl": "SEED-SHA",
+    "gnutls": null,
+    "nss": "TLS_RSA_WITH_SEED_CBC_SHA"
+  },
+  {
+    "codepoint": "0097",
+    "iana": "TLS_DH_DSS_WITH_SEED_CBC_SHA",
+    "openssl": "DH-DSS-SEED-SHA",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0098",
+    "iana": "TLS_DH_RSA_WITH_SEED_CBC_SHA",
+    "openssl": "DH-RSA-SEED-SHA",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "0099",
+    "iana": "TLS_DHE_DSS_WITH_SEED_CBC_SHA",
+    "openssl": "DHE-DSS-SEED-SHA",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "009A",
+    "iana": "TLS_DHE_RSA_WITH_SEED_CBC_SHA",
+    "openssl": "DHE-RSA-SEED-SHA",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "009B",
+    "iana": "TLS_DH_anon_WITH_SEED_CBC_SHA",
+    "openssl": "ADH-SEED-SHA",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "009C",
+    "iana": "TLS_RSA_WITH_AES_128_GCM_SHA256",
+    "openssl": "AES128-GCM-SHA256",
+    "gnutls": "RSA_AES_128_GCM_SHA256",
+    "nss": "TLS_RSA_WITH_AES_128_GCM_SHA256"
+  },
+  {
+    "codepoint": "009D",
+    "iana": "TLS_RSA_WITH_AES_256_GCM_SHA384",
+    "openssl": "AES256-GCM-SHA384",
+    "gnutls": "RSA_AES_256_GCM_SHA384",
+    "nss": "TLS_RSA_WITH_AES_256_GCM_SHA384"
+  },
+  {
+    "codepoint": "009E",
+    "iana": "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+    "openssl": "DHE-RSA-AES128-GCM-SHA256",
+    "gnutls": null,
+    "nss": "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
+  },
+  {
+    "codepoint": "009F",
+    "iana": "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+    "openssl": "DHE-RSA-AES256-GCM-SHA384",
+    "gnutls": null,
+    "nss": "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
+  },
+  {
+    "codepoint": "00A0",
+    "iana": "TLS_DH_RSA_WITH_AES_128_GCM_SHA256",
+    "openssl": "DH-RSA-AES128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00A1",
+    "iana": "TLS_DH_RSA_WITH_AES_256_GCM_SHA384",
+    "openssl": "DH-RSA-AES256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00A2",
+    "iana": "TLS_DHE_DSS_WITH_AES_128_GCM_SHA256",
+    "openssl": "DHE-DSS-AES128-GCM-SHA256",
+    "gnutls": null,
+    "nss": "TLS_DHE_DSS_WITH_AES_128_GCM_SHA256"
+  },
+  {
+    "codepoint": "00A3",
+    "iana": "TLS_DHE_DSS_WITH_AES_256_GCM_SHA384",
+    "openssl": "DHE-DSS-AES256-GCM-SHA384",
+    "gnutls": null,
+    "nss": "TLS_DHE_DSS_WITH_AES_256_GCM_SHA384"
+  },
+  {
+    "codepoint": "00A4",
+    "iana": "TLS_DH_DSS_WITH_AES_128_GCM_SHA256",
+    "openssl": "DH-DSS-AES128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00A5",
+    "iana": "TLS_DH_DSS_WITH_AES_256_GCM_SHA384",
+    "openssl": "DH-DSS-AES256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00A6",
+    "iana": "TLS_DH_anon_WITH_AES_128_GCM_SHA256",
+    "openssl": "ADH-AES128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00A7",
+    "iana": "TLS_DH_anon_WITH_AES_256_GCM_SHA384",
+    "openssl": "ADH-AES256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00A8",
+    "iana": "TLS_PSK_WITH_AES_128_GCM_SHA256",
+    "openssl": "PSK-AES128-GCM-SHA256",
+    "gnutls": "PSK_AES_128_GCM_SHA256",
+    "nss": null
+  },
+  {
+    "codepoint": "00A9",
+    "iana": "TLS_PSK_WITH_AES_256_GCM_SHA384",
+    "openssl": "PSK-AES256-GCM-SHA384",
+    "gnutls": "PSK_AES_256_GCM_SHA384",
+    "nss": null
+  },
+  {
+    "codepoint": "00AA",
+    "iana": "TLS_DHE_PSK_WITH_AES_128_GCM_SHA256",
+    "openssl": "DHE-PSK-AES128-GCM-SHA256",
+    "gnutls": "DHE_PSK_AES_128_GCM_SHA256",
+    "nss": "TLS_DHE_PSK_WITH_AES_128_GCM_SHA256"
+  },
+  {
+    "codepoint": "00AB",
+    "iana": "TLS_DHE_PSK_WITH_AES_256_GCM_SHA384",
+    "openssl": "DHE-PSK-AES256-GCM-SHA384",
+    "gnutls": "DHE_PSK_AES_256_GCM_SHA384",
+    "nss": "TLS_DHE_PSK_WITH_AES_256_GCM_SHA384"
+  },
+  {
+    "codepoint": "00AC",
+    "iana": "TLS_RSA_PSK_WITH_AES_128_GCM_SHA256",
+    "openssl": "RSA-PSK-AES128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00AD",
+    "iana": "TLS_RSA_PSK_WITH_AES_256_GCM_SHA384",
+    "openssl": "RSA-PSK-AES256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00AE",
+    "iana": "TLS_PSK_WITH_AES_128_CBC_SHA256",
+    "openssl": "PSK-AES128-CBC-SHA256",
+    "gnutls": "PSK_AES_128_CBC_SHA256",
+    "nss": null
+  },
+  {
+    "codepoint": "00AF",
+    "iana": "TLS_PSK_WITH_AES_256_CBC_SHA384",
+    "openssl": "PSK-AES256-CBC-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00B0",
+    "iana": "TLS_PSK_WITH_NULL_SHA256",
+    "openssl": "PSK-NULL-SHA256",
+    "gnutls": "PSK_NULL_SHA256",
+    "nss": null
+  },
+  {
+    "codepoint": "00B1",
+    "iana": "TLS_PSK_WITH_NULL_SHA384",
+    "openssl": "PSK-NULL-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00B2",
+    "iana": "TLS_DHE_PSK_WITH_AES_128_CBC_SHA256",
+    "openssl": "DHE-PSK-AES128-CBC-SHA256",
+    "gnutls": "DHE_PSK_AES_128_CBC_SHA256",
+    "nss": null
+  },
+  {
+    "codepoint": "00B3",
+    "iana": "TLS_DHE_PSK_WITH_AES_256_CBC_SHA384",
+    "openssl": "DHE-PSK-AES256-CBC-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00B4",
+    "iana": "TLS_DHE_PSK_WITH_NULL_SHA256",
+    "openssl": "DHE-PSK-NULL-SHA256",
+    "gnutls": "DHE_PSK_NULL_SHA256",
+    "nss": null
+  },
+  {
+    "codepoint": "00B5",
+    "iana": "TLS_DHE_PSK_WITH_NULL_SHA384",
+    "openssl": "DHE-PSK-NULL-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00B6",
+    "iana": "TLS_RSA_PSK_WITH_AES_128_CBC_SHA256",
+    "openssl": "RSA-PSK-AES128-CBC-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00B7",
+    "iana": "TLS_RSA_PSK_WITH_AES_256_CBC_SHA384",
+    "openssl": "RSA-PSK-AES256-CBC-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00B8",
+    "iana": "TLS_RSA_PSK_WITH_NULL_SHA256",
+    "openssl": "RSA-PSK-NULL-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00B9",
+    "iana": "TLS_RSA_PSK_WITH_NULL_SHA384",
+    "openssl": "RSA-PSK-NULL-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00BA",
+    "iana": "TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+    "openssl": "CAMELLIA128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00BB",
+    "iana": "TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256",
+    "openssl": "DH-DSS-CAMELLIA128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00BC",
+    "iana": "TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+    "openssl": "DH-RSA-CAMELLIA128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00BD",
+    "iana": "TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256",
+    "openssl": "DHE-DSS-CAMELLIA128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00BE",
+    "iana": "TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+    "openssl": "DHE-RSA-CAMELLIA128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00BF",
+    "iana": "TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256",
+    "openssl": "ADH-CAMELLIA128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00C0",
+    "iana": "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256",
+    "openssl": "CAMELLIA256-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00C1",
+    "iana": "TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256",
+    "openssl": "DH-DSS-CAMELLIA256-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00C2",
+    "iana": "TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256",
+    "openssl": "DH-RSA-CAMELLIA256-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00C3",
+    "iana": "TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256",
+    "openssl": "DHE-DSS-CAMELLIA256-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00C4",
+    "iana": "TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256",
+    "openssl": "DHE-RSA-CAMELLIA256-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00C5",
+    "iana": "TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256",
+    "openssl": "ADH-CAMELLIA256-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00C6",
+    "iana": "TLS_SM4_GCM_SM3",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00C7",
+    "iana": "TLS_SM4_CCM_SM3",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "00FF",
+    "iana": "TLS_EMPTY_RENEGOTIATION_INFO_SCSV",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_EMPTY_RENEGOTIATION_INFO_SCSV"
+  },
+  {
+    "codepoint": "1301",
+    "iana": "TLS_AES_128_GCM_SHA256",
+    "openssl": "TLS_AES_128_GCM_SHA256",
+    "gnutls": "AES_128_GCM_SHA256",
+    "nss": "TLS_AES_128_GCM_SHA256"
+  },
+  {
+    "codepoint": "1302",
+    "iana": "TLS_AES_256_GCM_SHA384",
+    "openssl": "TLS_AES_256_GCM_SHA384",
+    "gnutls": "AES_256_GCM_SHA384",
+    "nss": "TLS_AES_256_GCM_SHA384"
+  },
+  {
+    "codepoint": "1303",
+    "iana": "TLS_CHACHA20_POLY1305_SHA256",
+    "openssl": "TLS_CHACHA20_POLY1305_SHA256",
+    "gnutls": "CHACHA20_POLY1305_SHA256",
+    "nss": "TLS_CHACHA20_POLY1305_SHA256"
+  },
+  {
+    "codepoint": "1304",
+    "iana": "TLS_AES_128_CCM_SHA256",
+    "openssl": "TLS_AES_128_CCM_SHA256",
+    "gnutls": "AES_128_CCM_SHA256",
+    "nss": null
+  },
+  {
+    "codepoint": "1305",
+    "iana": "TLS_AES_128_CCM_8_SHA256",
+    "openssl": "TLS_AES_128_CCM_8_SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "5600",
+    "iana": "TLS_FALLBACK_SCSV",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_FALLBACK_SCSV"
+  },
+  {
+    "codepoint": "C001",
+    "iana": "TLS_ECDH_ECDSA_WITH_NULL_SHA",
+    "openssl": "ECDH-ECDSA-NULL-SHA",
+    "gnutls": null,
+    "nss": "TLS_ECDH_ECDSA_WITH_NULL_SHA"
+  },
+  {
+    "codepoint": "C002",
+    "iana": "TLS_ECDH_ECDSA_WITH_RC4_128_SHA",
+    "openssl": "ECDH-ECDSA-RC4-SHA",
+    "gnutls": null,
+    "nss": "TLS_ECDH_ECDSA_WITH_RC4_128_SHA"
+  },
+  {
+    "codepoint": "C003",
+    "iana": "TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA",
+    "openssl": "ECDH-ECDSA-DES-CBC3-SHA",
+    "gnutls": null,
+    "nss": "TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA"
+  },
+  {
+    "codepoint": "C004",
+    "iana": "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA",
+    "openssl": "ECDH-ECDSA-AES128-SHA",
+    "gnutls": null,
+    "nss": "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA"
+  },
+  {
+    "codepoint": "C005",
+    "iana": "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA",
+    "openssl": "ECDH-ECDSA-AES256-SHA",
+    "gnutls": null,
+    "nss": "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA"
+  },
+  {
+    "codepoint": "C006",
+    "iana": "TLS_ECDHE_ECDSA_WITH_NULL_SHA",
+    "openssl": "ECDHE-ECDSA-NULL-SHA",
+    "gnutls": null,
+    "nss": "TLS_ECDHE_ECDSA_WITH_NULL_SHA"
+  },
+  {
+    "codepoint": "C007",
+    "iana": "TLS_ECDHE_ECDSA_WITH_RC4_128_SHA",
+    "openssl": "ECDHE-ECDSA-RC4-SHA",
+    "gnutls": "ECDHE_ECDSA_ARCFOUR_128_SHA1",
+    "nss": "TLS_ECDHE_ECDSA_WITH_RC4_128_SHA"
+  },
+  {
+    "codepoint": "C008",
+    "iana": "TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA",
+    "openssl": "ECDHE-ECDSA-DES-CBC3-SHA",
+    "gnutls": null,
+    "nss": "TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA"
+  },
+  {
+    "codepoint": "C009",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+    "openssl": "ECDHE-ECDSA-AES128-SHA",
+    "gnutls": null,
+    "nss": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
+  },
+  {
+    "codepoint": "C00A",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+    "openssl": "ECDHE-ECDSA-AES256-SHA",
+    "gnutls": null,
+    "nss": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
+  },
+  {
+    "codepoint": "C00B",
+    "iana": "TLS_ECDH_RSA_WITH_NULL_SHA",
+    "openssl": "ECDH-RSA-NULL-SHA",
+    "gnutls": null,
+    "nss": "TLS_ECDH_RSA_WITH_NULL_SHA"
+  },
+  {
+    "codepoint": "C00C",
+    "iana": "TLS_ECDH_RSA_WITH_RC4_128_SHA",
+    "openssl": "ECDH-RSA-RC4-SHA",
+    "gnutls": null,
+    "nss": "TLS_ECDH_RSA_WITH_RC4_128_SHA"
+  },
+  {
+    "codepoint": "C00D",
+    "iana": "TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA",
+    "openssl": "ECDH-RSA-DES-CBC3-SHA",
+    "gnutls": null,
+    "nss": "TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA"
+  },
+  {
+    "codepoint": "C00E",
+    "iana": "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA",
+    "openssl": "ECDH-RSA-AES128-SHA",
+    "gnutls": null,
+    "nss": "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA"
+  },
+  {
+    "codepoint": "C00F",
+    "iana": "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA",
+    "openssl": "ECDH-RSA-AES256-SHA",
+    "gnutls": null,
+    "nss": "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA"
+  },
+  {
+    "codepoint": "C010",
+    "iana": "TLS_ECDHE_RSA_WITH_NULL_SHA",
+    "openssl": "ECDHE-RSA-NULL-SHA",
+    "gnutls": "ECDHE_RSA_NULL_SHA1",
+    "nss": "TLS_ECDHE_RSA_WITH_NULL_SHA"
+  },
+  {
+    "codepoint": "C011",
+    "iana": "TLS_ECDHE_RSA_WITH_RC4_128_SHA",
+    "openssl": "ECDHE-RSA-RC4-SHA",
+    "gnutls": "ECDHE_RSA_ARCFOUR_128_SHA1",
+    "nss": "TLS_ECDHE_RSA_WITH_RC4_128_SHA"
+  },
+  {
+    "codepoint": "C012",
+    "iana": "TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+    "openssl": "ECDHE-RSA-DES-CBC3-SHA",
+    "gnutls": "ECDHE_RSA_3DES_EDE_CBC_SHA1",
+    "nss": "TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA"
+  },
+  {
+    "codepoint": "C013",
+    "iana": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA",
+    "openssl": "ECDHE-RSA-AES128-SHA",
+    "gnutls": "ECDHE_RSA_AES_128_CBC_SHA1",
+    "nss": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+  },
+  {
+    "codepoint": "C014",
+    "iana": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA",
+    "openssl": "ECDHE-RSA-AES256-SHA",
+    "gnutls": "ECDHE_RSA_AES_256_CBC_SHA1",
+    "nss": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+  },
+  {
+    "codepoint": "C015",
+    "iana": "TLS_ECDH_anon_WITH_NULL_SHA",
+    "openssl": "AECDH-NULL-SHA",
+    "gnutls": "ECDH_ANON_NULL_SHA1",
+    "nss": "TLS_ECDH_anon_WITH_NULL_SHA"
+  },
+  {
+    "codepoint": "C016",
+    "iana": "TLS_ECDH_anon_WITH_RC4_128_SHA",
+    "openssl": "AECDH-RC4-SHA",
+    "gnutls": "ECDH_ANON_ARCFOUR_128_SHA1",
+    "nss": "TLS_ECDH_anon_WITH_RC4_128_SHA"
+  },
+  {
+    "codepoint": "C017",
+    "iana": "TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA",
+    "openssl": "AECDH-DES-CBC3-SHA",
+    "gnutls": "ECDH_ANON_3DES_EDE_CBC_SHA1",
+    "nss": "TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA"
+  },
+  {
+    "codepoint": "C018",
+    "iana": "TLS_ECDH_anon_WITH_AES_128_CBC_SHA",
+    "openssl": "AECDH-AES128-SHA",
+    "gnutls": "ECDH_ANON_AES_128_CBC_SHA1",
+    "nss": "TLS_ECDH_anon_WITH_AES_128_CBC_SHA"
+  },
+  {
+    "codepoint": "C019",
+    "iana": "TLS_ECDH_anon_WITH_AES_256_CBC_SHA",
+    "openssl": "AECDH-AES256-SHA",
+    "gnutls": "ECDH_ANON_AES_256_CBC_SHA1",
+    "nss": "TLS_ECDH_anon_WITH_AES_256_CBC_SHA"
+  },
+  {
+    "codepoint": "C01A",
+    "iana": "TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA",
+    "openssl": "SRP-3DES-EDE-CBC-SHA",
+    "gnutls": "SRP_SHA_3DES_EDE_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "C01B",
+    "iana": "TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA",
+    "openssl": "SRP-RSA-3DES-EDE-CBC-SHA",
+    "gnutls": "SRP_SHA_RSA_3DES_EDE_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "C01C",
+    "iana": "TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA",
+    "openssl": "SRP-DSS-3DES-EDE-CBC-SHA",
+    "gnutls": "SRP_SHA_DSS_3DES_EDE_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "C01D",
+    "iana": "TLS_SRP_SHA_WITH_AES_128_CBC_SHA",
+    "openssl": "SRP-AES-128-CBC-SHA",
+    "gnutls": "SRP_SHA_AES_128_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "C01E",
+    "iana": "TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA",
+    "openssl": "SRP-RSA-AES-128-CBC-SHA",
+    "gnutls": "SRP_SHA_RSA_AES_128_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "C01F",
+    "iana": "TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA",
+    "openssl": "SRP-DSS-AES-128-CBC-SHA",
+    "gnutls": "SRP_SHA_DSS_AES_128_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "C020",
+    "iana": "TLS_SRP_SHA_WITH_AES_256_CBC_SHA",
+    "openssl": "SRP-AES-256-CBC-SHA",
+    "gnutls": "SRP_SHA_AES_256_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "C021",
+    "iana": "TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA",
+    "openssl": "SRP-RSA-AES-256-CBC-SHA",
+    "gnutls": "SRP_SHA_RSA_AES_256_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "C022",
+    "iana": "TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA",
+    "openssl": "SRP-DSS-AES-256-CBC-SHA",
+    "gnutls": "SRP_SHA_DSS_AES_256_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "C023",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+    "openssl": "ECDHE-ECDSA-AES128-SHA256",
+    "gnutls": null,
+    "nss": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256"
+  },
+  {
+    "codepoint": "C024",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+    "openssl": "ECDHE-ECDSA-AES256-SHA384",
+    "gnutls": null,
+    "nss": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384"
+  },
+  {
+    "codepoint": "C025",
+    "iana": "TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256",
+    "openssl": "ECDH-ECDSA-AES128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C026",
+    "iana": "TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384",
+    "openssl": "ECDH-ECDSA-AES256-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C027",
+    "iana": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+    "openssl": "ECDHE-RSA-AES128-SHA256",
+    "gnutls": null,
+    "nss": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+  },
+  {
+    "codepoint": "C028",
+    "iana": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+    "openssl": "ECDHE-RSA-AES256-SHA384",
+    "gnutls": null,
+    "nss": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
+  },
+  {
+    "codepoint": "C029",
+    "iana": "TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256",
+    "openssl": "ECDH-RSA-AES128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C02A",
+    "iana": "TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384",
+    "openssl": "ECDH-RSA-AES256-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C02B",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+    "openssl": "ECDHE-ECDSA-AES128-GCM-SHA256",
+    "gnutls": null,
+    "nss": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
+  },
+  {
+    "codepoint": "C02C",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+    "openssl": "ECDHE-ECDSA-AES256-GCM-SHA384",
+    "gnutls": null,
+    "nss": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384"
+  },
+  {
+    "codepoint": "C02D",
+    "iana": "TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256",
+    "openssl": "ECDH-ECDSA-AES128-GCM-SHA256",
+    "gnutls": null,
+    "nss": "TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256"
+  },
+  {
+    "codepoint": "C02E",
+    "iana": "TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384",
+    "openssl": "ECDH-ECDSA-AES256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C02F",
+    "iana": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+    "openssl": "ECDHE-RSA-AES128-GCM-SHA256",
+    "gnutls": null,
+    "nss": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+  },
+  {
+    "codepoint": "C030",
+    "iana": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+    "openssl": "ECDHE-RSA-AES256-GCM-SHA384",
+    "gnutls": null,
+    "nss": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+  },
+  {
+    "codepoint": "C031",
+    "iana": "TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256",
+    "openssl": "ECDH-RSA-AES128-GCM-SHA256",
+    "gnutls": null,
+    "nss": "TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256"
+  },
+  {
+    "codepoint": "C032",
+    "iana": "TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384",
+    "openssl": "ECDH-RSA-AES256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C033",
+    "iana": "TLS_ECDHE_PSK_WITH_RC4_128_SHA",
+    "openssl": "ECDHE-PSK-RC4-SHA",
+    "gnutls": "ECDHE_PSK_ARCFOUR_128_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "C034",
+    "iana": "TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA",
+    "openssl": "ECDHE-PSK-3DES-EDE-CBC-SHA",
+    "gnutls": "ECDHE_PSK_3DES_EDE_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "C035",
+    "iana": "TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA",
+    "openssl": "ECDHE-PSK-AES128-CBC-SHA",
+    "gnutls": "ECDHE_PSK_AES_128_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "C036",
+    "iana": "TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA",
+    "openssl": "ECDHE-PSK-AES256-CBC-SHA",
+    "gnutls": "ECDHE_PSK_AES_256_CBC_SHA1",
+    "nss": null
+  },
+  {
+    "codepoint": "C037",
+    "iana": "TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256",
+    "openssl": "ECDHE-PSK-AES128-CBC-SHA256",
+    "gnutls": "ECDHE_PSK_AES_128_CBC_SHA256",
+    "nss": null
+  },
+  {
+    "codepoint": "C038",
+    "iana": "TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384",
+    "openssl": "ECDHE-PSK-AES256-CBC-SHA384",
+    "gnutls": "ECDHE_PSK_AES_256_CBC_SHA384",
+    "nss": null
+  },
+  {
+    "codepoint": "C039",
+    "iana": "TLS_ECDHE_PSK_WITH_NULL_SHA",
+    "openssl": "ECDHE-PSK-NULL-SHA",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C03A",
+    "iana": "TLS_ECDHE_PSK_WITH_NULL_SHA256",
+    "openssl": "ECDHE-PSK-NULL-SHA256",
+    "gnutls": "ECDHE_PSK_NULL_SHA256",
+    "nss": null
+  },
+  {
+    "codepoint": "C03B",
+    "iana": "TLS_ECDHE_PSK_WITH_NULL_SHA384",
+    "openssl": "ECDHE-PSK-NULL-SHA384",
+    "gnutls": "ECDHE_PSK_NULL_SHA384",
+    "nss": null
+  },
+  {
+    "codepoint": "C03C",
+    "iana": "TLS_RSA_WITH_ARIA_128_CBC_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C03D",
+    "iana": "TLS_RSA_WITH_ARIA_256_CBC_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C03E",
+    "iana": "TLS_DH_DSS_WITH_ARIA_128_CBC_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C03F",
+    "iana": "TLS_DH_DSS_WITH_ARIA_256_CBC_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C040",
+    "iana": "TLS_DH_RSA_WITH_ARIA_128_CBC_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C041",
+    "iana": "TLS_DH_RSA_WITH_ARIA_256_CBC_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C042",
+    "iana": "TLS_DHE_DSS_WITH_ARIA_128_CBC_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C043",
+    "iana": "TLS_DHE_DSS_WITH_ARIA_256_CBC_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C044",
+    "iana": "TLS_DHE_RSA_WITH_ARIA_128_CBC_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C045",
+    "iana": "TLS_DHE_RSA_WITH_ARIA_256_CBC_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C046",
+    "iana": "TLS_DH_anon_WITH_ARIA_128_CBC_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C047",
+    "iana": "TLS_DH_anon_WITH_ARIA_256_CBC_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C048",
+    "iana": "TLS_ECDHE_ECDSA_WITH_ARIA_128_CBC_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C049",
+    "iana": "TLS_ECDHE_ECDSA_WITH_ARIA_256_CBC_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C04A",
+    "iana": "TLS_ECDH_ECDSA_WITH_ARIA_128_CBC_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C04B",
+    "iana": "TLS_ECDH_ECDSA_WITH_ARIA_256_CBC_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C04C",
+    "iana": "TLS_ECDHE_RSA_WITH_ARIA_128_CBC_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C04D",
+    "iana": "TLS_ECDHE_RSA_WITH_ARIA_256_CBC_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C04E",
+    "iana": "TLS_ECDH_RSA_WITH_ARIA_128_CBC_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C04F",
+    "iana": "TLS_ECDH_RSA_WITH_ARIA_256_CBC_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C050",
+    "iana": "TLS_RSA_WITH_ARIA_128_GCM_SHA256",
+    "openssl": "ARIA128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C051",
+    "iana": "TLS_RSA_WITH_ARIA_256_GCM_SHA384",
+    "openssl": "ARIA256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C052",
+    "iana": "TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256",
+    "openssl": "DHE-RSA-ARIA128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C053",
+    "iana": "TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384",
+    "openssl": "DHE-RSA-ARIA256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C054",
+    "iana": "TLS_DH_RSA_WITH_ARIA_128_GCM_SHA256",
+    "openssl": "DH-RSA-ARIA128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C055",
+    "iana": "TLS_DH_RSA_WITH_ARIA_256_GCM_SHA384",
+    "openssl": "DH-RSA-ARIA256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C056",
+    "iana": "TLS_DHE_DSS_WITH_ARIA_128_GCM_SHA256",
+    "openssl": "DHE-DSS-ARIA128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C057",
+    "iana": "TLS_DHE_DSS_WITH_ARIA_256_GCM_SHA384",
+    "openssl": "DHE-DSS-ARIA256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C058",
+    "iana": "TLS_DH_DSS_WITH_ARIA_128_GCM_SHA256",
+    "openssl": "DH-DSS-ARIA128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C059",
+    "iana": "TLS_DH_DSS_WITH_ARIA_256_GCM_SHA384",
+    "openssl": "DH-DSS-ARIA256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C05A",
+    "iana": "TLS_DH_anon_WITH_ARIA_128_GCM_SHA256",
+    "openssl": "ADH-ARIA128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C05B",
+    "iana": "TLS_DH_anon_WITH_ARIA_256_GCM_SHA384",
+    "openssl": "ADH-ARIA256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C05C",
+    "iana": "TLS_ECDHE_ECDSA_WITH_ARIA_128_GCM_SHA256",
+    "openssl": "ECDHE-ECDSA-ARIA128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C05D",
+    "iana": "TLS_ECDHE_ECDSA_WITH_ARIA_256_GCM_SHA384",
+    "openssl": "ECDHE-ECDSA-ARIA256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C05E",
+    "iana": "TLS_ECDH_ECDSA_WITH_ARIA_128_GCM_SHA256",
+    "openssl": "ECDH-ECDSA-ARIA128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C05F",
+    "iana": "TLS_ECDH_ECDSA_WITH_ARIA_256_GCM_SHA384",
+    "openssl": "ECDH-ECDSA-ARIA256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C060",
+    "iana": "TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256",
+    "openssl": "ECDHE-ARIA128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C061",
+    "iana": "TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384",
+    "openssl": "ECDHE-ARIA256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C062",
+    "iana": "TLS_ECDH_RSA_WITH_ARIA_128_GCM_SHA256",
+    "openssl": "ECDH-ARIA128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C063",
+    "iana": "TLS_ECDH_RSA_WITH_ARIA_256_GCM_SHA384",
+    "openssl": "ECDH-ARIA256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C064",
+    "iana": "TLS_PSK_WITH_ARIA_128_CBC_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C065",
+    "iana": "TLS_PSK_WITH_ARIA_256_CBC_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C066",
+    "iana": "TLS_DHE_PSK_WITH_ARIA_128_CBC_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C067",
+    "iana": "TLS_DHE_PSK_WITH_ARIA_256_CBC_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C068",
+    "iana": "TLS_RSA_PSK_WITH_ARIA_128_CBC_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C069",
+    "iana": "TLS_RSA_PSK_WITH_ARIA_256_CBC_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C06A",
+    "iana": "TLS_PSK_WITH_ARIA_128_GCM_SHA256",
+    "openssl": "PSK-ARIA128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C06B",
+    "iana": "TLS_PSK_WITH_ARIA_256_GCM_SHA384",
+    "openssl": "PSK-ARIA256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C06C",
+    "iana": "TLS_DHE_PSK_WITH_ARIA_128_GCM_SHA256",
+    "openssl": "DHE-PSK-ARIA128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C06D",
+    "iana": "TLS_DHE_PSK_WITH_ARIA_256_GCM_SHA384",
+    "openssl": "DHE-PSK-ARIA256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C06E",
+    "iana": "TLS_RSA_PSK_WITH_ARIA_128_GCM_SHA256",
+    "openssl": "RSA-PSK-ARIA128-GCM-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C06F",
+    "iana": "TLS_RSA_PSK_WITH_ARIA_256_GCM_SHA384",
+    "openssl": "RSA-PSK-ARIA256-GCM-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C070",
+    "iana": "TLS_ECDHE_PSK_WITH_ARIA_128_CBC_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C071",
+    "iana": "TLS_ECDHE_PSK_WITH_ARIA_256_CBC_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C072",
+    "iana": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256",
+    "openssl": "ECDHE-ECDSA-CAMELLIA128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C073",
+    "iana": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384",
+    "openssl": "ECDHE-ECDSA-CAMELLIA256-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C074",
+    "iana": "TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256",
+    "openssl": "ECDH-ECDSA-CAMELLIA128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C075",
+    "iana": "TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384",
+    "openssl": "ECDH-ECDSA-CAMELLIA256-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C076",
+    "iana": "TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+    "openssl": "ECDHE-RSA-CAMELLIA128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C077",
+    "iana": "TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384",
+    "openssl": "ECDHE-RSA-CAMELLIA256-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C078",
+    "iana": "TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256",
+    "openssl": "ECDH-RSA-CAMELLIA128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C079",
+    "iana": "TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384",
+    "openssl": "ECDH-RSA-CAMELLIA256-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C07A",
+    "iana": "TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C07B",
+    "iana": "TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C07C",
+    "iana": "TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C07D",
+    "iana": "TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C07E",
+    "iana": "TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C07F",
+    "iana": "TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C080",
+    "iana": "TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C081",
+    "iana": "TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C082",
+    "iana": "TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C083",
+    "iana": "TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C084",
+    "iana": "TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C085",
+    "iana": "TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C086",
+    "iana": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C087",
+    "iana": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C088",
+    "iana": "TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C089",
+    "iana": "TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C08A",
+    "iana": "TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C08B",
+    "iana": "TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C08C",
+    "iana": "TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C08D",
+    "iana": "TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C08E",
+    "iana": "TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C08F",
+    "iana": "TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C090",
+    "iana": "TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C091",
+    "iana": "TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C092",
+    "iana": "TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C093",
+    "iana": "TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C094",
+    "iana": "TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256",
+    "openssl": "PSK-CAMELLIA128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C095",
+    "iana": "TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384",
+    "openssl": "PSK-CAMELLIA256-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C096",
+    "iana": "TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256",
+    "openssl": "DHE-PSK-CAMELLIA128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C097",
+    "iana": "TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384",
+    "openssl": "DHE-PSK-CAMELLIA256-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C098",
+    "iana": "TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256",
+    "openssl": "RSA-PSK-CAMELLIA128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C099",
+    "iana": "TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384",
+    "openssl": "RSA-PSK-CAMELLIA256-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C09A",
+    "iana": "TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256",
+    "openssl": "ECDHE-PSK-CAMELLIA128-SHA256",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C09B",
+    "iana": "TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384",
+    "openssl": "ECDHE-PSK-CAMELLIA256-SHA384",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C09C",
+    "iana": "TLS_RSA_WITH_AES_128_CCM",
+    "openssl": "AES128-CCM",
+    "gnutls": "RSA_AES_128_CCM",
+    "nss": null
+  },
+  {
+    "codepoint": "C09D",
+    "iana": "TLS_RSA_WITH_AES_256_CCM",
+    "openssl": "AES256-CCM",
+    "gnutls": "RSA_AES_256_CCM",
+    "nss": null
+  },
+  {
+    "codepoint": "C09E",
+    "iana": "TLS_DHE_RSA_WITH_AES_128_CCM",
+    "openssl": "DHE-RSA-AES128-CCM",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C09F",
+    "iana": "TLS_DHE_RSA_WITH_AES_256_CCM",
+    "openssl": "DHE-RSA-AES256-CCM",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0A0",
+    "iana": "TLS_RSA_WITH_AES_128_CCM_8",
+    "openssl": "AES128-CCM8",
+    "gnutls": "RSA_AES_128_CCM_8",
+    "nss": null
+  },
+  {
+    "codepoint": "C0A1",
+    "iana": "TLS_RSA_WITH_AES_256_CCM_8",
+    "openssl": "AES256-CCM8",
+    "gnutls": "RSA_AES_256_CCM_8",
+    "nss": null
+  },
+  {
+    "codepoint": "C0A2",
+    "iana": "TLS_DHE_RSA_WITH_AES_128_CCM_8",
+    "openssl": "DHE-RSA-AES128-CCM8",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0A3",
+    "iana": "TLS_DHE_RSA_WITH_AES_256_CCM_8",
+    "openssl": "DHE-RSA-AES256-CCM8",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0A4",
+    "iana": "TLS_PSK_WITH_AES_128_CCM",
+    "openssl": "PSK-AES128-CCM",
+    "gnutls": "PSK_AES_128_CCM",
+    "nss": null
+  },
+  {
+    "codepoint": "C0A5",
+    "iana": "TLS_PSK_WITH_AES_256_CCM",
+    "openssl": "PSK-AES256-CCM",
+    "gnutls": "PSK_AES_256_CCM",
+    "nss": null
+  },
+  {
+    "codepoint": "C0A6",
+    "iana": "TLS_DHE_PSK_WITH_AES_128_CCM",
+    "openssl": "DHE-PSK-AES128-CCM",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0A7",
+    "iana": "TLS_DHE_PSK_WITH_AES_256_CCM",
+    "openssl": "DHE-PSK-AES256-CCM",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0A8",
+    "iana": "TLS_PSK_WITH_AES_128_CCM_8",
+    "openssl": "PSK-AES128-CCM8",
+    "gnutls": "PSK_AES_128_CCM_8",
+    "nss": null
+  },
+  {
+    "codepoint": "C0A9",
+    "iana": "TLS_PSK_WITH_AES_256_CCM_8",
+    "openssl": "PSK-AES256-CCM8",
+    "gnutls": "PSK_AES_256_CCM_8",
+    "nss": null
+  },
+  {
+    "codepoint": "C0AA",
+    "iana": "TLS_PSK_DHE_WITH_AES_128_CCM_8",
+    "openssl": "DHE-PSK-AES128-CCM8",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0AB",
+    "iana": "TLS_PSK_DHE_WITH_AES_256_CCM_8",
+    "openssl": "DHE-PSK-AES256-CCM8",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0AC",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_CCM",
+    "openssl": "ECDHE-ECDSA-AES128-CCM",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0AD",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_CCM",
+    "openssl": "ECDHE-ECDSA-AES256-CCM",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0AE",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8",
+    "openssl": "ECDHE-ECDSA-AES128-CCM8",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0AF",
+    "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8",
+    "openssl": "ECDHE-ECDSA-AES256-CCM8",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0B0",
+    "iana": "TLS_ECCPWD_WITH_AES_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0B1",
+    "iana": "TLS_ECCPWD_WITH_AES_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0B2",
+    "iana": "TLS_ECCPWD_WITH_AES_128_CCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0B3",
+    "iana": "TLS_ECCPWD_WITH_AES_256_CCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0B4",
+    "iana": "TLS_SHA256_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C0B5",
+    "iana": "TLS_SHA384_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C100",
+    "iana": "TLS_GOSTR341112_256_WITH_KUZNYECHIK_CTR_OMAC",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C101",
+    "iana": "TLS_GOSTR341112_256_WITH_MAGMA_CTR_OMAC",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C102",
+    "iana": "TLS_GOSTR341112_256_WITH_28147_CNT_IMIT",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C103",
+    "iana": "TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_L",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C104",
+    "iana": "TLS_GOSTR341112_256_WITH_MAGMA_MGM_L",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C105",
+    "iana": "TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_S",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "C106",
+    "iana": "TLS_GOSTR341112_256_WITH_MAGMA_MGM_S",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "CCA8",
+    "iana": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+    "openssl": "ECDHE-RSA-CHACHA20-POLY1305",
+    "gnutls": null,
+    "nss": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256"
+  },
+  {
+    "codepoint": "CCA9",
+    "iana": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+    "openssl": "ECDHE-ECDSA-CHACHA20-POLY1305",
+    "gnutls": "ECDHE_ECDSA_CHACHA20_POLY1305",
+    "nss": "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256"
+  },
+  {
+    "codepoint": "CCAA",
+    "iana": "TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+    "openssl": "DHE-RSA-CHACHA20-POLY1305",
+    "gnutls": "DHE_RSA_CHACHA20_POLY1305",
+    "nss": "TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256"
+  },
+  {
+    "codepoint": "CCAB",
+    "iana": "TLS_PSK_WITH_CHACHA20_POLY1305_SHA256",
+    "openssl": "PSK-CHACHA20-POLY1305",
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "CCAC",
+    "iana": "TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256",
+    "openssl": "ECDHE-PSK-CHACHA20-POLY1305",
+    "gnutls": "ECDHE_PSK_CHACHA20_POLY1305",
+    "nss": "TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256"
+  },
+  {
+    "codepoint": "CCAD",
+    "iana": "TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256",
+    "openssl": "DHE-PSK-CHACHA20-POLY1305",
+    "gnutls": "DHE_PSK_CHACHA20_POLY1305",
+    "nss": "TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256"
+  },
+  {
+    "codepoint": "CCAE",
+    "iana": "TLS_RSA_PSK_WITH_CHACHA20_POLY1305_SHA256",
+    "openssl": "RSA-PSK-CHACHA20-POLY1305",
+    "gnutls": "RSA_PSK_CHACHA20_POLY1305",
+    "nss": null
+  },
+  {
+    "codepoint": "D001",
+    "iana": "TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256"
+  },
+  {
+    "codepoint": "D002",
+    "iana": "TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384",
+    "openssl": null,
+    "gnutls": null,
+    "nss": "TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384"
+  },
+  {
+    "codepoint": "D003",
+    "iana": "TLS_ECDHE_PSK_WITH_AES_128_CCM_8_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  },
+  {
+    "codepoint": "D005",
+    "iana": "TLS_ECDHE_PSK_WITH_AES_128_CCM_SHA256",
+    "openssl": null,
+    "gnutls": null,
+    "nss": null
+  }
+]
