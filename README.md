@@ -33,7 +33,7 @@
 $ gem install tls-map
 ```
 
-Check the [installation](https://sec-it.github.io/tls-map/) page on the documentation to discover more methods.
+Check the [installation](https://sec-it.github.io/tls-map/#/pages/install) page on the documentation to discover more methods.
 
 ## Documentation
 
