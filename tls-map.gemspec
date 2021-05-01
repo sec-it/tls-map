@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.name          = 'tls-map'
   s.version       = TLSmap::VERSION
   s.platform      = Gem::Platform::RUBY
-  s.summary       = 'CLI & library for mapping TLS cipher algorithm names: IANA, OpenSSL, GnUTLS, NSS'
-  s.description   = 'CLI & library for mapping TLS cipher algorithm names: IANA, OpenSSL, GnUTLS, NSS'
+  s.summary       = 'CLI & library for mapping TLS cipher algorithm names: IANA, OpenSSL, GnuTLS, NSS'
+  s.description   = 'CLI & library for mapping TLS cipher algorithm names: IANA, OpenSSL, GnuTLS, NSS'
   s.authors       = ['Alexandre ZANNI']
   s.email         = 'alexandre.zanni@engineer.com'
   s.homepage      = 'https://sec-it.github.io/tls-map/'
