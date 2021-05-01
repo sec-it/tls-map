@@ -11,7 +11,7 @@
 
 ![logo](docs/_media/logo.png)
 
-> CLI & library for mapping TLS cipher algorithm names: IANA, OpenSSL, GnUTLS, NSS
+> CLI & library for mapping TLS cipher algorithm names: IANA, OpenSSL, GnuTLS, NSS
 
 **CLI**
 
