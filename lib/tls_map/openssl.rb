@@ -39,7 +39,7 @@ module TLSmap
     def parse_openssl
       data_openssl.each do |alg|
         @tls_map.each do |h|
-          h[:openssl] ||= h[:codepoint] == alg[0] ? alg[1] : nil
+          h[:openssl] ||= h[:codepoint] == alg[0].upcase ? alg[1] : nil
         end
       end
     end

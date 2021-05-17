@@ -13,7 +13,7 @@ module TLSmap
     def parse_nss
       File.read(@nss_file.path).scan(/(TLS_[a-zA-Z0-9_]+)\s+0x([[:xdigit:]]{4})/) do |alg|
         @tls_map.each do |h|
-          h[:nss] ||= h[:codepoint] == alg[1] ? alg[0] : nil
+          h[:nss] ||= h[:codepoint] == alg[1].upcase ? alg[0] : nil
         end
       end
     end
