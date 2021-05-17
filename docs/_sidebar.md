@@ -6,6 +6,7 @@
   - [Examples](pages/examples.md)
   - [Demo](pages/demo.md)
   - [Mapping](pages/mapping.md)
+  - [Limitations](pages/limitations.md)
 
 - Guide
 
