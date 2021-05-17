@@ -6,6 +6,7 @@ Fix:
 
   - fix NSS and GnuTLS parser: many ciphers were not parsed due to a wrong regexp
   - make search case-insensitive for hexadecimal codepoints
+  - fix OpenSSL parser: some TLS 1.0 ciphers where defined in SSL 3.0 source code file
 
 Documentation:
 
