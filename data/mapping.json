@@ -9,191 +9,191 @@
   {
     "codepoint": "0001",
     "iana": "TLS_RSA_WITH_NULL_MD5",
-    "openssl": null,
+    "openssl": "NULL-MD5",
     "gnutls": "RSA_NULL_MD5",
     "nss": "TLS_RSA_WITH_NULL_MD5"
   },
   {
     "codepoint": "0002",
     "iana": "TLS_RSA_WITH_NULL_SHA",
-    "openssl": null,
+    "openssl": "NULL-SHA",
     "gnutls": "RSA_NULL_SHA1",
     "nss": "TLS_RSA_WITH_NULL_SHA"
   },
   {
     "codepoint": "0003",
     "iana": "TLS_RSA_EXPORT_WITH_RC4_40_MD5",
-    "openssl": null,
+    "openssl": "EXP-RC4-MD5",
     "gnutls": null,
     "nss": "TLS_RSA_EXPORT_WITH_RC4_40_MD5"
   },
   {
     "codepoint": "0004",
     "iana": "TLS_RSA_WITH_RC4_128_MD5",
-    "openssl": null,
+    "openssl": "RC4-MD5",
     "gnutls": "RSA_ARCFOUR_128_MD5",
     "nss": "TLS_RSA_WITH_RC4_128_MD5"
   },
   {
     "codepoint": "0005",
     "iana": "TLS_RSA_WITH_RC4_128_SHA",
-    "openssl": null,
+    "openssl": "RC4-SHA",
     "gnutls": "RSA_ARCFOUR_128_SHA1",
     "nss": "TLS_RSA_WITH_RC4_128_SHA"
   },
   {
     "codepoint": "0006",
     "iana": "TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5",
-    "openssl": null,
+    "openssl": "EXP-RC2-CBC-MD5",
     "gnutls": null,
     "nss": "TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5"
   },
   {
     "codepoint": "0007",
     "iana": "TLS_RSA_WITH_IDEA_CBC_SHA",
-    "openssl": null,
+    "openssl": "IDEA-CBC-SHA",
     "gnutls": null,
     "nss": "TLS_RSA_WITH_IDEA_CBC_SHA"
   },
   {
     "codepoint": "0008",
     "iana": "TLS_RSA_EXPORT_WITH_DES40_CBC_SHA",
-    "openssl": null,
+    "openssl": "EXP-DES-CBC-SHA",
     "gnutls": null,
     "nss": "TLS_RSA_EXPORT_WITH_DES40_CBC_SHA"
   },
   {
     "codepoint": "0009",
     "iana": "TLS_RSA_WITH_DES_CBC_SHA",
-    "openssl": null,
+    "openssl": "DES-CBC-SHA",
     "gnutls": null,
     "nss": "TLS_RSA_WITH_DES_CBC_SHA"
   },
   {
     "codepoint": "000A",
     "iana": "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
-    "openssl": null,
+    "openssl": "DES-CBC3-SHA",
     "gnutls": "RSA_3DES_EDE_CBC_SHA1",
-    "nss": null
+    "nss": "TLS_RSA_WITH_3DES_EDE_CBC_SHA"
   },
   {
     "codepoint": "000B",
     "iana": "TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA",
-    "openssl": null,
+    "openssl": "EXP-DH-DSS-DES-CBC-SHA",
     "gnutls": null,
-    "nss": null
+    "nss": "TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA"
   },
   {
     "codepoint": "000C",
     "iana": "TLS_DH_DSS_WITH_DES_CBC_SHA",
-    "openssl": null,
+    "openssl": "DH-DSS-DES-CBC-SHA",
     "gnutls": null,
-    "nss": null
+    "nss": "TLS_DH_DSS_WITH_DES_CBC_SHA"
   },
   {
     "codepoint": "000D",
     "iana": "TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA",
-    "openssl": null,
+    "openssl": "DH-DSS-DES-CBC3-SHA",
     "gnutls": null,
-    "nss": null
+    "nss": "TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA"
   },
   {
     "codepoint": "000E",
     "iana": "TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA",
-    "openssl": null,
+    "openssl": "EXP-DH-RSA-DES-CBC-SHA",
     "gnutls": null,
-    "nss": null
+    "nss": "TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA"
   },
   {
     "codepoint": "000F",
     "iana": "TLS_DH_RSA_WITH_DES_CBC_SHA",
-    "openssl": null,
+    "openssl": "DH-RSA-DES-CBC-SHA",
     "gnutls": null,
-    "nss": null
+    "nss": "TLS_DH_RSA_WITH_DES_CBC_SHA"
   },
   {
     "codepoint": "0010",
     "iana": "TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA",
-    "openssl": null,
+    "openssl": "DH-RSA-DES-CBC3-SHA",
     "gnutls": null,
     "nss": "TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA"
   },
   {
     "codepoint": "0011",
     "iana": "TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA",
-    "openssl": null,
+    "openssl": "EXP-DHE-DSS-DES-CBC-SHA",
     "gnutls": null,
     "nss": "TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA"
   },
   {
     "codepoint": "0012",
     "iana": "TLS_DHE_DSS_WITH_DES_CBC_SHA",
-    "openssl": null,
+    "openssl": "DHE-DSS-DES-CBC-SHA",
     "gnutls": null,
     "nss": "TLS_DHE_DSS_WITH_DES_CBC_SHA"
   },
   {
     "codepoint": "0013",
     "iana": "TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA",
-    "openssl": null,
+    "openssl": "DHE-DSS-DES-CBC3-SHA",
     "gnutls": "DHE_DSS_3DES_EDE_CBC_SHA1",
     "nss": "TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA"
   },
   {
     "codepoint": "0014",
     "iana": "TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA",
-    "openssl": null,
+    "openssl": "EXP-DHE-RSA-DES-CBC-SHA",
     "gnutls": null,
     "nss": "TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA"
   },
   {
     "codepoint": "0015",
     "iana": "TLS_DHE_RSA_WITH_DES_CBC_SHA",
-    "openssl": null,
+    "openssl": "DHE-RSA-DES-CBC-SHA",
     "gnutls": null,
     "nss": "TLS_DHE_RSA_WITH_DES_CBC_SHA"
   },
   {
     "codepoint": "0016",
     "iana": "TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA",
-    "openssl": null,
+    "openssl": "DHE-RSA-DES-CBC3-SHA",
     "gnutls": "DHE_RSA_3DES_EDE_CBC_SHA1",
     "nss": "TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA"
   },
   {
     "codepoint": "0017",
     "iana": "TLS_DH_anon_EXPORT_WITH_RC4_40_MD5",
-    "openssl": null,
+    "openssl": "EXP-ADH-RC4-MD5",
     "gnutls": null,
     "nss": "TLS_DH_anon_EXPORT_WITH_RC4_40_MD5"
   },
   {
     "codepoint": "0018",
     "iana": "TLS_DH_anon_WITH_RC4_128_MD5",
-    "openssl": null,
+    "openssl": "ADH-RC4-MD5",
     "gnutls": "DH_ANON_ARCFOUR_128_MD5",
     "nss": "TLS_DH_anon_WITH_RC4_128_MD5"
   },
   {
     "codepoint": "0019",
     "iana": "TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA",
-    "openssl": null,
+    "openssl": "EXP-ADH-DES-CBC-SHA",
     "gnutls": null,
     "nss": "TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA"
   },
   {
     "codepoint": "001A",
     "iana": "TLS_DH_anon_WITH_DES_CBC_SHA",
-    "openssl": null,
+    "openssl": "ADH-DES-CBC-SHA",
     "gnutls": null,
-    "nss": null
+    "nss": "TLS_DH_anon_WITH_DES_CBC_SHA"
   },
   {
     "codepoint": "001B",
     "iana": "TLS_DH_anon_WITH_3DES_EDE_CBC_SHA",
-    "openssl": null,
+    "openssl": "ADH-DES-CBC3-SHA",
     "gnutls": "DH_ANON_3DES_EDE_CBC_SHA1",
-    "nss": null
+    "nss": "TLS_DH_anon_WITH_3DES_EDE_CBC_SHA"
   },
   {
     "codepoint": "001E",
@@ -297,21 +297,21 @@
     "codepoint": "002C",
     "iana": "TLS_PSK_WITH_NULL_SHA",
     "openssl": "PSK-NULL-SHA",
-    "gnutls": null,
+    "gnutls": "PSK_NULL_SHA1",
     "nss": null
   },
   {
     "codepoint": "002D",
     "iana": "TLS_DHE_PSK_WITH_NULL_SHA",
     "openssl": "DHE-PSK-NULL-SHA",
-    "gnutls": null,
+    "gnutls": "DHE_PSK_NULL_SHA1",
     "nss": null
   },
   {
     "codepoint": "002E",
     "iana": "TLS_RSA_PSK_WITH_NULL_SHA",
     "openssl": "RSA-PSK-NULL-SHA",
-    "gnutls": null,
+    "gnutls": "RSA_PSK_NULL_SHA1",
     "nss": null
   },
   {
@@ -444,7 +444,7 @@
     "codepoint": "0041",
     "iana": "TLS_RSA_WITH_CAMELLIA_128_CBC_SHA",
     "openssl": "CAMELLIA128-SHA",
-    "gnutls": null,
+    "gnutls": "RSA_CAMELLIA_128_CBC_SHA1",
     "nss": "TLS_RSA_WITH_CAMELLIA_128_CBC_SHA"
   },
   {
@@ -465,21 +465,21 @@
     "codepoint": "0044",
     "iana": "TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA",
     "openssl": "DHE-DSS-CAMELLIA128-SHA",
-    "gnutls": null,
+    "gnutls": "DHE_DSS_CAMELLIA_128_CBC_SHA1",
     "nss": "TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA"
   },
   {
     "codepoint": "0045",
     "iana": "TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA",
     "openssl": "DHE-RSA-CAMELLIA128-SHA",
-    "gnutls": null,
+    "gnutls": "DHE_RSA_CAMELLIA_128_CBC_SHA1",
     "nss": "TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA"
   },
   {
     "codepoint": "0046",
     "iana": "TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA",
     "openssl": "ADH-CAMELLIA128-SHA",
-    "gnutls": null,
+    "gnutls": "DH_ANON_CAMELLIA_128_CBC_SHA1",
     "nss": "TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA"
   },
   {
@@ -535,7 +535,7 @@
     "codepoint": "0084",
     "iana": "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA",
     "openssl": "CAMELLIA256-SHA",
-    "gnutls": null,
+    "gnutls": "RSA_CAMELLIA_256_CBC_SHA1",
     "nss": "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA"
   },
   {
@@ -556,21 +556,21 @@
     "codepoint": "0087",
     "iana": "TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA",
     "openssl": "DHE-DSS-CAMELLIA256-SHA",
-    "gnutls": null,
+    "gnutls": "DHE_DSS_CAMELLIA_256_CBC_SHA1",
     "nss": "TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA"
   },
   {
     "codepoint": "0088",
     "iana": "TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA",
     "openssl": "DHE-RSA-CAMELLIA256-SHA",
-    "gnutls": null,
+    "gnutls": "DHE_RSA_CAMELLIA_256_CBC_SHA1",
     "nss": "TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA"
   },
   {
     "codepoint": "0089",
     "iana": "TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA",
     "openssl": "ADH-CAMELLIA256-SHA",
-    "gnutls": null,
+    "gnutls": "DH_ANON_CAMELLIA_256_CBC_SHA1",
     "nss": "TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA"
   },
   {
@@ -717,14 +717,14 @@
     "codepoint": "009E",
     "iana": "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
     "openssl": "DHE-RSA-AES128-GCM-SHA256",
-    "gnutls": null,
+    "gnutls": "DHE_RSA_AES_128_GCM_SHA256",
     "nss": "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
   },
   {
     "codepoint": "009F",
     "iana": "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
     "openssl": "DHE-RSA-AES256-GCM-SHA384",
-    "gnutls": null,
+    "gnutls": "DHE_RSA_AES_256_GCM_SHA384",
     "nss": "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
   },
   {
@@ -745,14 +745,14 @@
     "codepoint": "00A2",
     "iana": "TLS_DHE_DSS_WITH_AES_128_GCM_SHA256",
     "openssl": "DHE-DSS-AES128-GCM-SHA256",
-    "gnutls": null,
+    "gnutls": "DHE_DSS_AES_128_GCM_SHA256",
     "nss": "TLS_DHE_DSS_WITH_AES_128_GCM_SHA256"
   },
   {
     "codepoint": "00A3",
     "iana": "TLS_DHE_DSS_WITH_AES_256_GCM_SHA384",
     "openssl": "DHE-DSS-AES256-GCM-SHA384",
-    "gnutls": null,
+    "gnutls": "DHE_DSS_AES_256_GCM_SHA384",
     "nss": "TLS_DHE_DSS_WITH_AES_256_GCM_SHA384"
   },
   {
@@ -773,14 +773,14 @@
     "codepoint": "00A6",
     "iana": "TLS_DH_anon_WITH_AES_128_GCM_SHA256",
     "openssl": "ADH-AES128-GCM-SHA256",
-    "gnutls": null,
+    "gnutls": "DH_ANON_AES_128_GCM_SHA256",
     "nss": null
   },
   {
     "codepoint": "00A7",
     "iana": "TLS_DH_anon_WITH_AES_256_GCM_SHA384",
     "openssl": "ADH-AES256-GCM-SHA384",
-    "gnutls": null,
+    "gnutls": "DH_ANON_AES_256_GCM_SHA384",
     "nss": null
   },
   {
@@ -815,14 +815,14 @@
     "codepoint": "00AC",
     "iana": "TLS_RSA_PSK_WITH_AES_128_GCM_SHA256",
     "openssl": "RSA-PSK-AES128-GCM-SHA256",
-    "gnutls": null,
+    "gnutls": "RSA_PSK_AES_128_GCM_SHA256",
     "nss": null
   },
   {
     "codepoint": "00AD",
     "iana": "TLS_RSA_PSK_WITH_AES_256_GCM_SHA384",
     "openssl": "RSA-PSK-AES256-GCM-SHA384",
-    "gnutls": null,
+    "gnutls": "RSA_PSK_AES_256_GCM_SHA384",
     "nss": null
   },
   {
@@ -836,7 +836,7 @@
     "codepoint": "00AF",
     "iana": "TLS_PSK_WITH_AES_256_CBC_SHA384",
     "openssl": "PSK-AES256-CBC-SHA384",
-    "gnutls": null,
+    "gnutls": "PSK_AES_256_CBC_SHA384",
     "nss": null
   },
   {
@@ -850,7 +850,7 @@
     "codepoint": "00B1",
     "iana": "TLS_PSK_WITH_NULL_SHA384",
     "openssl": "PSK-NULL-SHA384",
-    "gnutls": null,
+    "gnutls": "PSK_NULL_SHA384",
     "nss": null
   },
   {
@@ -864,7 +864,7 @@
     "codepoint": "00B3",
     "iana": "TLS_DHE_PSK_WITH_AES_256_CBC_SHA384",
     "openssl": "DHE-PSK-AES256-CBC-SHA384",
-    "gnutls": null,
+    "gnutls": "DHE_PSK_AES_256_CBC_SHA384",
     "nss": null
   },
   {
@@ -878,42 +878,42 @@
     "codepoint": "00B5",
     "iana": "TLS_DHE_PSK_WITH_NULL_SHA384",
     "openssl": "DHE-PSK-NULL-SHA384",
-    "gnutls": null,
+    "gnutls": "DHE_PSK_NULL_SHA384",
     "nss": null
   },
   {
     "codepoint": "00B6",
     "iana": "TLS_RSA_PSK_WITH_AES_128_CBC_SHA256",
     "openssl": "RSA-PSK-AES128-CBC-SHA256",
-    "gnutls": null,
+    "gnutls": "RSA_PSK_AES_128_CBC_SHA256",
     "nss": null
   },
   {
     "codepoint": "00B7",
     "iana": "TLS_RSA_PSK_WITH_AES_256_CBC_SHA384",
     "openssl": "RSA-PSK-AES256-CBC-SHA384",
-    "gnutls": null,
+    "gnutls": "RSA_PSK_AES_256_CBC_SHA384",
     "nss": null
   },
   {
     "codepoint": "00B8",
     "iana": "TLS_RSA_PSK_WITH_NULL_SHA256",
     "openssl": "RSA-PSK-NULL-SHA256",
-    "gnutls": null,
+    "gnutls": "RSA_PSK_NULL_SHA256",
     "nss": null
   },
   {
     "codepoint": "00B9",
     "iana": "TLS_RSA_PSK_WITH_NULL_SHA384",
     "openssl": "RSA-PSK-NULL-SHA384",
-    "gnutls": null,
+    "gnutls": "RSA_PSK_NULL_SHA384",
     "nss": null
   },
   {
     "codepoint": "00BA",
     "iana": "TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256",
     "openssl": "CAMELLIA128-SHA256",
-    "gnutls": null,
+    "gnutls": "RSA_CAMELLIA_128_CBC_SHA256",
     "nss": null
   },
   {
@@ -934,28 +934,28 @@
     "codepoint": "00BD",
     "iana": "TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256",
     "openssl": "DHE-DSS-CAMELLIA128-SHA256",
-    "gnutls": null,
+    "gnutls": "DHE_DSS_CAMELLIA_128_CBC_SHA256",
     "nss": null
   },
   {
     "codepoint": "00BE",
     "iana": "TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256",
     "openssl": "DHE-RSA-CAMELLIA128-SHA256",
-    "gnutls": null,
+    "gnutls": "DHE_RSA_CAMELLIA_128_CBC_SHA256",
     "nss": null
   },
   {
     "codepoint": "00BF",
     "iana": "TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256",
     "openssl": "ADH-CAMELLIA128-SHA256",
-    "gnutls": null,
+    "gnutls": "DH_ANON_CAMELLIA_128_CBC_SHA256",
     "nss": null
   },
   {
     "codepoint": "00C0",
     "iana": "TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256",
     "openssl": "CAMELLIA256-SHA256",
-    "gnutls": null,
+    "gnutls": "RSA_CAMELLIA_256_CBC_SHA256",
     "nss": null
   },
   {
@@ -976,21 +976,21 @@
     "codepoint": "00C3",
     "iana": "TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256",
     "openssl": "DHE-DSS-CAMELLIA256-SHA256",
-    "gnutls": null,
+    "gnutls": "DHE_DSS_CAMELLIA_256_CBC_SHA256",
     "nss": null
   },
   {
     "codepoint": "00C4",
     "iana": "TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256",
     "openssl": "DHE-RSA-CAMELLIA256-SHA256",
-    "gnutls": null,
+    "gnutls": "DHE_RSA_CAMELLIA_256_CBC_SHA256",
     "nss": null
   },
   {
     "codepoint": "00C5",
     "iana": "TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256",
     "openssl": "ADH-CAMELLIA256-SHA256",
-    "gnutls": null,
+    "gnutls": "DH_ANON_CAMELLIA_256_CBC_SHA256",
     "nss": null
   },
   {
@@ -1046,7 +1046,7 @@
     "codepoint": "1305",
     "iana": "TLS_AES_128_CCM_8_SHA256",
     "openssl": "TLS_AES_128_CCM_8_SHA256",
-    "gnutls": null,
+    "gnutls": "AES_128_CCM_8_SHA256",
     "nss": null
   },
   {
@@ -1095,7 +1095,7 @@
     "codepoint": "C006",
     "iana": "TLS_ECDHE_ECDSA_WITH_NULL_SHA",
     "openssl": "ECDHE-ECDSA-NULL-SHA",
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_NULL_SHA1",
     "nss": "TLS_ECDHE_ECDSA_WITH_NULL_SHA"
   },
   {
@@ -1109,21 +1109,21 @@
     "codepoint": "C008",
     "iana": "TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA",
     "openssl": "ECDHE-ECDSA-DES-CBC3-SHA",
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_3DES_EDE_CBC_SHA1",
     "nss": "TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA"
   },
   {
     "codepoint": "C009",
     "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
     "openssl": "ECDHE-ECDSA-AES128-SHA",
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_AES_128_CBC_SHA1",
     "nss": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA"
   },
   {
     "codepoint": "C00A",
     "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
     "openssl": "ECDHE-ECDSA-AES256-SHA",
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_AES_256_CBC_SHA1",
     "nss": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA"
   },
   {
@@ -1298,14 +1298,14 @@
     "codepoint": "C023",
     "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
     "openssl": "ECDHE-ECDSA-AES128-SHA256",
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_AES_128_CBC_SHA256",
     "nss": "TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256"
   },
   {
     "codepoint": "C024",
     "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
     "openssl": "ECDHE-ECDSA-AES256-SHA384",
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_AES_256_CBC_SHA384",
     "nss": "TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384"
   },
   {
@@ -1326,14 +1326,14 @@
     "codepoint": "C027",
     "iana": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256",
     "openssl": "ECDHE-RSA-AES128-SHA256",
-    "gnutls": null,
+    "gnutls": "ECDHE_RSA_AES_128_CBC_SHA256",
     "nss": "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
   },
   {
     "codepoint": "C028",
     "iana": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384",
     "openssl": "ECDHE-RSA-AES256-SHA384",
-    "gnutls": null,
+    "gnutls": "ECDHE_RSA_AES_256_CBC_SHA384",
     "nss": "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
   },
   {
@@ -1354,14 +1354,14 @@
     "codepoint": "C02B",
     "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
     "openssl": "ECDHE-ECDSA-AES128-GCM-SHA256",
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_AES_128_GCM_SHA256",
     "nss": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
   },
   {
     "codepoint": "C02C",
     "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
     "openssl": "ECDHE-ECDSA-AES256-GCM-SHA384",
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_AES_256_GCM_SHA384",
     "nss": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384"
   },
   {
@@ -1382,14 +1382,14 @@
     "codepoint": "C02F",
     "iana": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
     "openssl": "ECDHE-RSA-AES128-GCM-SHA256",
-    "gnutls": null,
+    "gnutls": "ECDHE_RSA_AES_128_GCM_SHA256",
     "nss": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
   },
   {
     "codepoint": "C030",
     "iana": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
     "openssl": "ECDHE-RSA-AES256-GCM-SHA384",
-    "gnutls": null,
+    "gnutls": "ECDHE_RSA_AES_256_GCM_SHA384",
     "nss": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
   },
   {
@@ -1452,7 +1452,7 @@
     "codepoint": "C039",
     "iana": "TLS_ECDHE_PSK_WITH_NULL_SHA",
     "openssl": "ECDHE-PSK-NULL-SHA",
-    "gnutls": null,
+    "gnutls": "ECDHE_PSK_NULL_SHA1",
     "nss": null
   },
   {
@@ -1851,14 +1851,14 @@
     "codepoint": "C072",
     "iana": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256",
     "openssl": "ECDHE-ECDSA-CAMELLIA128-SHA256",
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_CAMELLIA_128_CBC_SHA256",
     "nss": null
   },
   {
     "codepoint": "C073",
     "iana": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384",
     "openssl": "ECDHE-ECDSA-CAMELLIA256-SHA384",
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_CAMELLIA_256_CBC_SHA384",
     "nss": null
   },
   {
@@ -1879,14 +1879,14 @@
     "codepoint": "C076",
     "iana": "TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256",
     "openssl": "ECDHE-RSA-CAMELLIA128-SHA256",
-    "gnutls": null,
+    "gnutls": "ECDHE_RSA_CAMELLIA_128_CBC_SHA256",
     "nss": null
   },
   {
     "codepoint": "C077",
     "iana": "TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384",
     "openssl": "ECDHE-RSA-CAMELLIA256-SHA384",
-    "gnutls": null,
+    "gnutls": "ECDHE_RSA_CAMELLIA_256_CBC_SHA384",
     "nss": null
   },
   {
@@ -1907,28 +1907,28 @@
     "codepoint": "C07A",
     "iana": "TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "RSA_CAMELLIA_128_GCM_SHA256",
     "nss": null
   },
   {
     "codepoint": "C07B",
     "iana": "TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "RSA_CAMELLIA_256_GCM_SHA384",
     "nss": null
   },
   {
     "codepoint": "C07C",
     "iana": "TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "DHE_RSA_CAMELLIA_128_GCM_SHA256",
     "nss": null
   },
   {
     "codepoint": "C07D",
     "iana": "TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "DHE_RSA_CAMELLIA_256_GCM_SHA384",
     "nss": null
   },
   {
@@ -1949,14 +1949,14 @@
     "codepoint": "C080",
     "iana": "TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "DHE_DSS_CAMELLIA_128_GCM_SHA256",
     "nss": null
   },
   {
     "codepoint": "C081",
     "iana": "TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "DHE_DSS_CAMELLIA_256_GCM_SHA384",
     "nss": null
   },
   {
@@ -1977,28 +1977,28 @@
     "codepoint": "C084",
     "iana": "TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "DH_ANON_CAMELLIA_128_GCM_SHA256",
     "nss": null
   },
   {
     "codepoint": "C085",
     "iana": "TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "DH_ANON_CAMELLIA_256_GCM_SHA384",
     "nss": null
   },
   {
     "codepoint": "C086",
     "iana": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_CAMELLIA_128_GCM_SHA256",
     "nss": null
   },
   {
     "codepoint": "C087",
     "iana": "TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_CAMELLIA_256_GCM_SHA384",
     "nss": null
   },
   {
@@ -2019,14 +2019,14 @@
     "codepoint": "C08A",
     "iana": "TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "ECDHE_RSA_CAMELLIA_128_GCM_SHA256",
     "nss": null
   },
   {
     "codepoint": "C08B",
     "iana": "TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "ECDHE_RSA_CAMELLIA_256_GCM_SHA384",
     "nss": null
   },
   {
@@ -2047,98 +2047,98 @@
     "codepoint": "C08E",
     "iana": "TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "PSK_CAMELLIA_128_GCM_SHA256",
     "nss": null
   },
   {
     "codepoint": "C08F",
     "iana": "TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "PSK_CAMELLIA_256_GCM_SHA384",
     "nss": null
   },
   {
     "codepoint": "C090",
     "iana": "TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "DHE_PSK_CAMELLIA_128_GCM_SHA256",
     "nss": null
   },
   {
     "codepoint": "C091",
     "iana": "TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "DHE_PSK_CAMELLIA_256_GCM_SHA384",
     "nss": null
   },
   {
     "codepoint": "C092",
     "iana": "TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "RSA_PSK_CAMELLIA_128_GCM_SHA256",
     "nss": null
   },
   {
     "codepoint": "C093",
     "iana": "TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "RSA_PSK_CAMELLIA_256_GCM_SHA384",
     "nss": null
   },
   {
     "codepoint": "C094",
     "iana": "TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256",
     "openssl": "PSK-CAMELLIA128-SHA256",
-    "gnutls": null,
+    "gnutls": "PSK_CAMELLIA_128_CBC_SHA256",
     "nss": null
   },
   {
     "codepoint": "C095",
     "iana": "TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384",
     "openssl": "PSK-CAMELLIA256-SHA384",
-    "gnutls": null,
+    "gnutls": "PSK_CAMELLIA_256_CBC_SHA384",
     "nss": null
   },
   {
     "codepoint": "C096",
     "iana": "TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256",
     "openssl": "DHE-PSK-CAMELLIA128-SHA256",
-    "gnutls": null,
+    "gnutls": "DHE_PSK_CAMELLIA_128_CBC_SHA256",
     "nss": null
   },
   {
     "codepoint": "C097",
     "iana": "TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384",
     "openssl": "DHE-PSK-CAMELLIA256-SHA384",
-    "gnutls": null,
+    "gnutls": "DHE_PSK_CAMELLIA_256_CBC_SHA384",
     "nss": null
   },
   {
     "codepoint": "C098",
     "iana": "TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256",
     "openssl": "RSA-PSK-CAMELLIA128-SHA256",
-    "gnutls": null,
+    "gnutls": "RSA_PSK_CAMELLIA_128_CBC_SHA256",
     "nss": null
   },
   {
     "codepoint": "C099",
     "iana": "TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384",
     "openssl": "RSA-PSK-CAMELLIA256-SHA384",
-    "gnutls": null,
+    "gnutls": "RSA_PSK_CAMELLIA_256_CBC_SHA384",
     "nss": null
   },
   {
     "codepoint": "C09A",
     "iana": "TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256",
     "openssl": "ECDHE-PSK-CAMELLIA128-SHA256",
-    "gnutls": null,
+    "gnutls": "ECDHE_PSK_CAMELLIA_128_CBC_SHA256",
     "nss": null
   },
   {
     "codepoint": "C09B",
     "iana": "TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384",
     "openssl": "ECDHE-PSK-CAMELLIA256-SHA384",
-    "gnutls": null,
+    "gnutls": "ECDHE_PSK_CAMELLIA_256_CBC_SHA384",
     "nss": null
   },
   {
@@ -2159,14 +2159,14 @@
     "codepoint": "C09E",
     "iana": "TLS_DHE_RSA_WITH_AES_128_CCM",
     "openssl": "DHE-RSA-AES128-CCM",
-    "gnutls": null,
+    "gnutls": "DHE_RSA_AES_128_CCM",
     "nss": null
   },
   {
     "codepoint": "C09F",
     "iana": "TLS_DHE_RSA_WITH_AES_256_CCM",
     "openssl": "DHE-RSA-AES256-CCM",
-    "gnutls": null,
+    "gnutls": "DHE_RSA_AES_256_CCM",
     "nss": null
   },
   {
@@ -2187,14 +2187,14 @@
     "codepoint": "C0A2",
     "iana": "TLS_DHE_RSA_WITH_AES_128_CCM_8",
     "openssl": "DHE-RSA-AES128-CCM8",
-    "gnutls": null,
+    "gnutls": "DHE_RSA_AES_128_CCM_8",
     "nss": null
   },
   {
     "codepoint": "C0A3",
     "iana": "TLS_DHE_RSA_WITH_AES_256_CCM_8",
     "openssl": "DHE-RSA-AES256-CCM8",
-    "gnutls": null,
+    "gnutls": "DHE_RSA_AES_256_CCM_8",
     "nss": null
   },
   {
@@ -2215,14 +2215,14 @@
     "codepoint": "C0A6",
     "iana": "TLS_DHE_PSK_WITH_AES_128_CCM",
     "openssl": "DHE-PSK-AES128-CCM",
-    "gnutls": null,
+    "gnutls": "DHE_PSK_AES_128_CCM",
     "nss": null
   },
   {
     "codepoint": "C0A7",
     "iana": "TLS_DHE_PSK_WITH_AES_256_CCM",
     "openssl": "DHE-PSK-AES256-CCM",
-    "gnutls": null,
+    "gnutls": "DHE_PSK_AES_256_CCM",
     "nss": null
   },
   {
@@ -2243,42 +2243,42 @@
     "codepoint": "C0AA",
     "iana": "TLS_PSK_DHE_WITH_AES_128_CCM_8",
     "openssl": "DHE-PSK-AES128-CCM8",
-    "gnutls": null,
+    "gnutls": "DHE_PSK_AES_128_CCM_8",
     "nss": null
   },
   {
     "codepoint": "C0AB",
     "iana": "TLS_PSK_DHE_WITH_AES_256_CCM_8",
     "openssl": "DHE-PSK-AES256-CCM8",
-    "gnutls": null,
+    "gnutls": "DHE_PSK_AES_256_CCM_8",
     "nss": null
   },
   {
     "codepoint": "C0AC",
     "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_CCM",
     "openssl": "ECDHE-ECDSA-AES128-CCM",
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_AES_128_CCM",
     "nss": null
   },
   {
     "codepoint": "C0AD",
     "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_CCM",
     "openssl": "ECDHE-ECDSA-AES256-CCM",
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_AES_256_CCM",
     "nss": null
   },
   {
     "codepoint": "C0AE",
     "iana": "TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8",
     "openssl": "ECDHE-ECDSA-AES128-CCM8",
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_AES_128_CCM_8",
     "nss": null
   },
   {
     "codepoint": "C0AF",
     "iana": "TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8",
     "openssl": "ECDHE-ECDSA-AES256-CCM8",
-    "gnutls": null,
+    "gnutls": "ECDHE_ECDSA_AES_256_CCM_8",
     "nss": null
   },
   {
@@ -2341,7 +2341,7 @@
     "codepoint": "C102",
     "iana": "TLS_GOSTR341112_256_WITH_28147_CNT_IMIT",
     "openssl": null,
-    "gnutls": null,
+    "gnutls": "GOSTR341112_256_28147_CNT_IMIT",
     "nss": null
   },
   {
@@ -2376,7 +2376,7 @@
     "codepoint": "CCA8",
     "iana": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
     "openssl": "ECDHE-RSA-CHACHA20-POLY1305",
-    "gnutls": null,
+    "gnutls": "ECDHE_RSA_CHACHA20_POLY1305",
     "nss": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256"
   },
   {
@@ -2397,7 +2397,7 @@
     "codepoint": "CCAB",
     "iana": "TLS_PSK_WITH_CHACHA20_POLY1305_SHA256",
     "openssl": "PSK-CHACHA20-POLY1305",
-    "gnutls": null,
+    "gnutls": "PSK_CHACHA20_POLY1305",
     "nss": null
   },
   {
