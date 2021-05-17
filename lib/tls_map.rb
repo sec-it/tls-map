@@ -19,6 +19,7 @@ module TLSmap
     def initialize
       @iana_file = tmpfile('iana', IANA_URL)
       @openssl_file = tmpfile('openssl', OPENSSL_URL)
+      @openssl_file2 = tmpfile('openssl', OPENSSL_URL2)
       @gnutls_file = tmpfile('gnutls', GNUTLS_URL)
       @nss_file = tmpfile('nss', NSS_URL)
 
