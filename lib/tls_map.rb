@@ -43,6 +43,7 @@ module TLSmap
     # @return [Hash] The corresponding type matching +term+.
     def search(critera, term, output = :all)
       @tls_map.each do |alg|
+        term = term.upcase if critera == :codepoint
         next unless alg[critera] == term
         return alg if output == :all
 

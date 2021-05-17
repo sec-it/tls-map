@@ -5,6 +5,7 @@
 Fix:
 
   - fix NSS and GnuTLS parser: many ciphers were not parsed due to a wrong regexp
+  - make search case-insensitive for hexadecimal codepoints
 
 Documentation:
 
