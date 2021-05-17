@@ -12,6 +12,7 @@ Documentation:
 - Added a _limitations_ page
   - No SSL support
   - No custom cipher suites support
+  - Unassigned and reserved codepoints are hidden
 
 ## [1.0.0]
 
