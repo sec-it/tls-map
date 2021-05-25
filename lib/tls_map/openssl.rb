@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-# Ruby internal
-
 # TLS map module
 module TLSmap
   # TLS mapping

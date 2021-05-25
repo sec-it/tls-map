@@ -14,7 +14,7 @@ doc = <<~DOCOPT
   TLS map
 
   Usage:
-    tls-map search <critera> <term> [-o <output> --force] [--no-color --debug]
+    tls-map search <critera> <term> [-o <output> --force -e -a] [--no-color --debug]
     tls-map export <filename> <format> [--force] [--debug]
     tls-map update [--debug]
     tls-map -h | --help
@@ -24,6 +24,8 @@ doc = <<~DOCOPT
     <critera>               The type of term. Accepted values: codepoint, iana, openssl, gnutls, nss.
     <term>                  The cipher algorithm name.
     -o, --output <output>   Displayed fields. Accepted values: all, codepoint, iana, openssl, gnutls, nss. [default: all]
+    -e, --extended          (Online) Display additional information about the cipher (requires output = all or iana)
+    -a, --acronym           (Online) Display full acronym name (requires -e / --extended option)
 
   Export options: (offline)
     <filename>              The output file name to write to.
@@ -49,6 +51,29 @@ begin
     puts Paint['No match found', :red] if res.empty?
     res.each do |k, v|
       puts "#{Paint[k, :green]}: #{Paint[v, :white]}"
+    end
+    if args['--extended']
+      tmext = TLSmap::App::Extended
+      tmext_i = tmext.new
+      ext = tmext_i.extend(res[:iana])
+      dic = tmext::DICO
+      sev = tmext::VULN_SEVERITY
+      ext.each do |k, v|
+        case k
+        when 'vulns'
+          puts "#{Paint[dic[k], :magenta]}:"
+          v.each do |vuln|
+            print "  - #{Paint[sev[vuln[:severity]][:title], sev[vuln[:severity]][:color]]} - "
+            puts Paint[vuln[:description], :white]
+          end
+        when 'tls_version'
+          puts "#{Paint[dic[k], :magenta]}: #{Paint[v.join(', '), :white]}"
+        else
+          print "#{Paint[dic[k], :magenta]}: #{Paint[v, :white]}"
+          print " (#{tmext_i.translate_acronym(v)})" if args['--acronym'] && !tmext_i.translate_acronym(v).nil? # rubocop:disable Metrics/BlockNesting
+          puts
+        end
+      end
     end
   elsif args['export']
     cli = TLSmap::CLI.new(args['--force'])

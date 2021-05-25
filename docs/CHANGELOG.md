@@ -2,11 +2,20 @@
 
 ## [1.1.0]
 
+Additions:
+
+- New `TLSmap::App::Extended` class: partial wrapper around ciphersuite.info API to get extra info about a cipher
+- New `--extended` and `-acronym` CLI option for the `search` command using the new class
+
+Changes:
+
+- Move `tmpfile()` to a `Utils` module (no breaking changes)
+
 Fix:
 
-  - fix NSS and GnuTLS parser: many ciphers were not parsed due to a wrong regexp
-  - make search case-insensitive for hexadecimal codepoints
-  - fix OpenSSL parser: some TLS 1.0 ciphers where defined in SSL 3.0 source code file
+- fix NSS and GnuTLS parser: many ciphers were not parsed due to a wrong regexp
+- make search case-insensitive for hexadecimal codepoints
+- fix OpenSSL parser: some TLS 1.0 ciphers where defined in SSL 3.0 source code file
 
 Documentation:
 
