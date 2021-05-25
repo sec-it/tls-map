@@ -6,14 +6,19 @@ require 'tempfile'
 
 # TLS map module
 module TLSmap
-  # TLS mapping
-  class App
+  # Generic utilities
+  module Utils
     def tmpfile(name, url)
       tmp = Tempfile.new(name)
       tmp.write(Net::HTTP.get(URI(url)))
+      tmp.close
       tmp
     end
+  end
 
+  # TLS mapping
+  class App
+    include Utils
     protected :tmpfile
   end
 end

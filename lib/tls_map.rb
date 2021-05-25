@@ -10,6 +10,7 @@ require 'tls_map/openssl'
 require 'tls_map/gnutls'
 require 'tls_map/nss'
 require 'tls_map/output'
+require 'tls_map/ciphersuiteinfo'
 
 # TLS map module
 module TLSmap
