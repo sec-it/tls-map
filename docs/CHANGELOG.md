@@ -5,7 +5,7 @@
 Additions:
 
 - New `TLSmap::App::Extended` class: partial wrapper around ciphersuite.info API to get extra info about a cipher
-- New `--extended` and `-acronym` CLI option for the `search` command using the new class
+- New `--extended` and `--acronym` CLI option for the `search` command using the new class
 
 Changes:
 

@@ -7,7 +7,7 @@ $ tls-map --help
 TLS map
 
 Usage:
-  tls-map search <critera> <term> [-o <output> --force] [--no-color --debug]
+  tls-map search <critera> <term> [-o <output> --force -e -a] [--no-color --debug]
   tls-map export <filename> <format> [--force] [--debug]
   tls-map update [--debug]
   tls-map -h | --help
@@ -17,6 +17,8 @@ Search options: (offline)
   <critera>               The type of term. Accepted values: codepoint, iana, openssl, gnutls, nss.
   <term>                  The cipher algorithm name.
   -o, --output <output>   Displayed fields. Accepted values: all, codepoint, iana, openssl, gnutls, nss. [default: all]
+  -e, --extended          (Online) Display additional information about the cipher (requires output = all or iana)
+  -a, --acronym           (Online) Display full acronym name (requires -e / --extended option)
 
 Export options: (offline)
   <filename>              The output file name to write to.
@@ -42,7 +44,7 @@ require 'tls_map'
 tm = TLSmap::App.new
 
 # Translate from one lib to another
-tm.search(:gnutls, 'RSA_ARCFOUR_128_SHA1', :iana) #=> {:iana=>"TLS_RSA_WITH_RC4_128_SHA"
+tm.search(:gnutls, 'RSA_ARCFOUR_128_SHA1', :iana) #=> {:iana=>"TLS_RSA_WITH_RC4_128_SHA"}
 tm.search(:openssl, 'AES128-SHA', :iana) #=> {:iana=>"TLS_RSA_WITH_AES_128_CBC_SHA"}
 tm.search(:iana, 'TLS_DH_RSA_WITH_AES_256_CBC_SHA', :codepoint) #=> {:codepoint=>"0037"}
 
