@@ -10,7 +10,9 @@ require 'yaml'
 module TLSmap
   class App
     # Partial wrapper around ciphersuite.info API to get extra info about a cipher
+    #
     # Documentation:
+    #
     # - https://ciphersuite.info/blog/2019/04/05/how-to-use-our-api/
     # - https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.0.md
     # - https://ciphersuite.info/api/

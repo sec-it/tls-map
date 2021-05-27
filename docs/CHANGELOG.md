@@ -1,5 +1,17 @@
 ## [Unreleased]
 
+## [1.2.0]
+
+Additions:
+
+- New `TLSmap::App::Extractor` class: extract ciphers from external tools file output (see [lib doc](https://sec-it.github.io/tls-map/yard/TLSmap/App/Extractor))
+  - Support SSLyze, sslscan2, testssl.sh, ssllabs-scan
+  - New `extract` CLI command
+
+Documentation:
+
+- change yard doc format from rdoc to markdown
+
 ## [1.1.0]
 
 Additions:

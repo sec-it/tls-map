@@ -31,6 +31,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency('docopt', '~> 0.6') # for argument parsing
   s.add_runtime_dependency('paint', '~> 2.2') # for colorized ouput
+  s.add_runtime_dependency('rexml', '~> 3.2') # XML parser
 
   s.add_development_dependency('bundler', ['>= 2.1.0', '< 2.3'])
   s.add_development_dependency('commonmarker', '~> 0.21') # for GMF support in YARD
