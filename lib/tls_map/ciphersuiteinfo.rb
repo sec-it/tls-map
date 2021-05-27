@@ -11,10 +11,10 @@ module TLSmap
   class App
     # Partial wrapper around ciphersuite.info API to get extra info about a cipher
     # Documentation:
-    #   - https://ciphersuite.info/blog/2019/04/05/how-to-use-our-api/
-    #   - https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.0.md
-    #   - https://ciphersuite.info/api/
-    #   - https://github.com/hcrudolph/ciphersuite.info
+    # - https://ciphersuite.info/blog/2019/04/05/how-to-use-our-api/
+    # - https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.0.md
+    # - https://ciphersuite.info/api/
+    # - https://github.com/hcrudolph/ciphersuite.info
     class Extended
       # Root URL of Cipher Suite Info
       ROOT = 'https://ciphersuite.info/'
@@ -57,8 +57,8 @@ module TLSmap
       # Retrieve advanced about a cipher on Cipher Suite Info API and enhanced it
       # @param iana_name [String] IANA cipher name
       # @return [Hash] Hash containing advanced information. The keys are the same as {DICO}. All valeus are string
-      #   except +vulns+ which is an array of hashes containing two keys: +:severity+ (integer) and +:description+
-      #   (string). Each hash in +vulns+ correspond to a vulnerability.
+      #   except `vulns` which is an array of hashes containing two keys: `:severity` (integer) and `:description`
+      #   (string). Each hash in `vulns` correspond to a vulnerability.
       def extend(iana_name) # rubocop:disable Metrics/MethodLength
         obj = Net::HTTP.get(URI("#{API_ROOT}cs/#{iana_name}/"))
         out = JSON.parse(obj)[iana_name]
@@ -99,7 +99,7 @@ module TLSmap
 
       # Translate cipher related acronyms
       # @param term [String] Acronym, eg. DSS
-      # @return [String] The long name of the acronym, eg. Digital Signature Standard or +nil+ if it's not found
+      # @return [String] The long name of the acronym, eg. Digital Signature Standard or `nil` if it's not found
       def translate_acronym(term)
         return @tech[term][:long_name] unless @tech[term].nil?
 
@@ -108,7 +108,7 @@ module TLSmap
 
       # Find vulnerabilities related to a technology
       # @param tech [String] The technology acronym, eg. CBC
-      # @return [Array<Hash>] Array of vulnerabilities as described for {extend} return value in the +vulns+ key.
+      # @return [Array<Hash>] Array of vulnerabilities as described for {extend} return value in the `vulns` key.
       def find_vuln(tech)
         return @tech[tech][:vulnerabilities].map { |vuln| @vuln[vuln] } unless @tech[tech][:vulnerabilities].nil?
 

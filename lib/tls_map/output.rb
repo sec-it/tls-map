@@ -35,9 +35,9 @@ module TLSmap
 
     # Export the mapping to a file, supporting various formats.
     # @param filename [String] The output file name to write to.
-    # @param format [Symbol] Supported formats: +:markdown+ (a markdown table),
-    #   +:json_pretty+ (expanded JSON), +:json_compact+ (minified JSON),
-    #   +:marshal+ (Ruby marshalized hash).
+    # @param format [Symbol] Supported formats: `:markdown` (a markdown table),
+    #   `:json_pretty` (expanded JSON), `:json_compact` (minified JSON),
+    #   `:marshal` (Ruby marshalized hash).
     def export(filename, format)
       case format
       when :markdown      then output_markdown(filename)

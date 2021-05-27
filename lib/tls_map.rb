@@ -11,6 +11,7 @@ require 'tls_map/gnutls'
 require 'tls_map/nss'
 require 'tls_map/output'
 require 'tls_map/ciphersuiteinfo'
+require 'tls_map/extractor'
 
 # TLS map module
 module TLSmap
@@ -36,13 +37,13 @@ module TLSmap
     end
 
     # Search for corresponding cipher algorithms in other libraries
-    # @param critera [Symbol] The type of +term+.
-    #   Accepted values: +:codepoint+, +:iana+, +:openssl+, +:gnutls+, +:nss+.
+    # @param critera [Symbol] The type of `term`.
+    #   Accepted values: `:codepoint`, `:iana`, `:openssl`, `:gnutls`, `:nss`.
     # @param term [String] The cipher algorithm name.
     # @param output [Symbol] The corresponding type to be included in the return value.
-    #   Accepted values: +:all+ (default), +:codepoint+, +:iana+, +:openssl+,
-    #   +:gnutls+, +:nss+.
-    # @return [Hash] The corresponding type matching +term+.
+    #   Accepted values: `:all` (default), `:codepoint`, `:iana`, `:openssl`,
+    #   `:gnutls`, `:nss`.
+    # @return [Hash] The corresponding type matching `term`.
     def search(critera, term, output = :all)
       @tls_map.each do |alg|
         term = term.upcase if critera == :codepoint
