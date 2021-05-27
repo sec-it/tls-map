@@ -12,25 +12,30 @@ See [Installation](/pages/install)
 
 ```plaintext
 $ tls-map --help
-TLS map
+TLS map 1.2.0
 
 Usage:
   tls-map search <critera> <term> [-o <output> --force -e -a] [--no-color --debug]
   tls-map export <filename> <format> [--force] [--debug]
+  tls-map extract <filename> <format> [--no-color --debug]
   tls-map update [--debug]
   tls-map -h | --help
   tls-map --version
 
-Search options: (offline)
+Search options: (offline) search and translate cipher names between SSL/TLS libraries
   <critera>               The type of term. Accepted values: codepoint, iana, openssl, gnutls, nss.
   <term>                  The cipher algorithm name.
   -o, --output <output>   Displayed fields. Accepted values: all, codepoint, iana, openssl, gnutls, nss. [default: all]
   -e, --extended          (Online) Display additional information about the cipher (requires output = all or iana)
   -a, --acronym           (Online) Display full acronym name (requires -e / --extended option)
 
-Export options: (offline)
+Export options: (offline) export the list of all ciphers (mapping) in various formats
   <filename>              The output file name to write to.
   <format>                Supported formats: markdown (a markdown table), json_pretty (expanded JSON), json_compact (minified JSON), marshal (Ruby marshalized hash).
+
+Extract options: (offline) extract ciphers from external tools output file
+  <filename>              The external tool output file
+  <format>                Supported formats: sslyze, sslscan2, testssl, ssllabs-scan (check the documentation for the expected file format)
 
 Update options: (online) DANGEROUS, will break database integrity, force option will be required
 
