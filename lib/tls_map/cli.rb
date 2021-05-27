@@ -9,7 +9,7 @@ module TLSmap
   class CLI < App
     INTEGRITY = '42e44f89550365da2bc8d33d87f88b65d85d6474e90f9edb65e0ea6c78f61a53' # sha2-256
 
-    # Load and parse data from marshalized hash (+data/mapping.marshal+).
+    # Load and parse data from marshalized hash (`data/mapping.marshal`).
     # It must match the integrity check for security purpose.
     # @param force [Boolean] Force parsing even if intigrity check failed (DANGEROUS,
     #   may result in command execution vulnerability)
@@ -31,7 +31,7 @@ module TLSmap
     end
 
     # Check if the password database exists
-    # @return [Boolean] +true+ if the file exists
+    # @return [Boolean] `true` if the file exists
     def database_exists?
       exists = File.file?(@database_path)
       raise "Database does not exist: #{@database_path}" unless exists

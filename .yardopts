@@ -1,4 +1,5 @@
 --output-dir docs/yard
+--markup=markdown
 -
 --main README.md
 LICENSE
