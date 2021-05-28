@@ -1,0 +1,250 @@
+{
+          "clientProblem1" : [
+                            {
+                                "id"           : "engine_problem",
+                                "severity"     : "WARN",
+                                "finding"      : "No engine or GOST support via engine with your /usr/bin/openssl"
+                           }
+          ],
+          "Invocation"  : "testssl --jsonfile-pretty test/file_sample/testssl.json --mapping no-openssl --cipher-per-proto example.org",
+          "at"          : "penarch:/usr/bin/openssl",
+          "version"     : "3.0.5 c13794b from 2021-05-27",
+          "openssl"     : "OpenSSL 1.1.1k from Mar 25 16:27:51 2021",
+          "startTime"   : "1622129881",
+          "scanResult"  : [
+          {
+                    "targetHost"      : "example.org",
+                    "ip"              : "93.184.216.34",
+                    "port"            : "443",
+                    "rDNS"            : "--",
+                    "service"         : "HTTP",
+                    "pretest"           : [
+                            {
+                                "id"           : "pre_128cipher",
+                                "severity"     : "INFO",
+                                "finding"      : "No 128 cipher limit bug"
+                           }
+                    ],
+                    "protocols"         : [
+
+                    ],
+                    "grease"            : [
+
+                    ],
+                    "ciphers"           : [
+
+                    ],
+                    "pfs"               : [
+
+                    ],
+                    "serverPreferences" : [
+
+                    ],
+                    "serverDefaults"    : [
+
+                    ],
+                    "vulnerabilities"   : [
+
+                    ],
+                    "cipherTests"       : [
+                            {
+                                "id"           : "cipher-tls1_xc014",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1   xc014   TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA                ECDH 256   AES         256"
+                           },{
+                                "id"           : "cipher-tls1_x39",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1   x39     TLS_DHE_RSA_WITH_AES_256_CBC_SHA                  DH 2048    AES         256"
+                           },{
+                                "id"           : "cipher-tls1_x88",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1   x88     TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA             DH 2048    Camellia    256"
+                           },{
+                                "id"           : "cipher-tls1_x35",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1   x35     TLS_RSA_WITH_AES_256_CBC_SHA                      RSA        AES         256"
+                           },{
+                                "id"           : "cipher-tls1_x84",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1   x84     TLS_RSA_WITH_CAMELLIA_256_CBC_SHA                 RSA        Camellia    256"
+                           },{
+                                "id"           : "cipher-tls1_xc013",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1   xc013   TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA                ECDH 256   AES         128"
+                           },{
+                                "id"           : "cipher-tls1_x33",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1   x33     TLS_DHE_RSA_WITH_AES_128_CBC_SHA                  DH 2048    AES         128"
+                           },{
+                                "id"           : "cipher-tls1_x9a",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1   x9a     TLS_DHE_RSA_WITH_SEED_CBC_SHA                     DH 2048    SEED        128"
+                           },{
+                                "id"           : "cipher-tls1_x45",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1   x45     TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA             DH 2048    Camellia    128"
+                           },{
+                                "id"           : "cipher-tls1_x2f",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1   x2f     TLS_RSA_WITH_AES_128_CBC_SHA                      RSA        AES         128"
+                           },{
+                                "id"           : "cipher-tls1_x96",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1   x96     TLS_RSA_WITH_SEED_CBC_SHA                         RSA        SEED        128"
+                           },{
+                                "id"           : "cipher-tls1_x41",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1   x41     TLS_RSA_WITH_CAMELLIA_128_CBC_SHA                 RSA        Camellia    128"
+                           },{
+                                "id"           : "cipher-tls1_1_xc014",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.1   xc014   TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA                ECDH 256   AES         256"
+                           },{
+                                "id"           : "cipher-tls1_1_x39",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.1   x39     TLS_DHE_RSA_WITH_AES_256_CBC_SHA                  DH 2048    AES         256"
+                           },{
+                                "id"           : "cipher-tls1_1_x88",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.1   x88     TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA             DH 2048    Camellia    256"
+                           },{
+                                "id"           : "cipher-tls1_1_x35",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.1   x35     TLS_RSA_WITH_AES_256_CBC_SHA                      RSA        AES         256"
+                           },{
+                                "id"           : "cipher-tls1_1_x84",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.1   x84     TLS_RSA_WITH_CAMELLIA_256_CBC_SHA                 RSA        Camellia    256"
+                           },{
+                                "id"           : "cipher-tls1_1_xc013",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.1   xc013   TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA                ECDH 256   AES         128"
+                           },{
+                                "id"           : "cipher-tls1_1_x33",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.1   x33     TLS_DHE_RSA_WITH_AES_128_CBC_SHA                  DH 2048    AES         128"
+                           },{
+                                "id"           : "cipher-tls1_1_x9a",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.1   x9a     TLS_DHE_RSA_WITH_SEED_CBC_SHA                     DH 2048    SEED        128"
+                           },{
+                                "id"           : "cipher-tls1_1_x45",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.1   x45     TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA             DH 2048    Camellia    128"
+                           },{
+                                "id"           : "cipher-tls1_1_x2f",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.1   x2f     TLS_RSA_WITH_AES_128_CBC_SHA                      RSA        AES         128"
+                           },{
+                                "id"           : "cipher-tls1_1_x96",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.1   x96     TLS_RSA_WITH_SEED_CBC_SHA                         RSA        SEED        128"
+                           },{
+                                "id"           : "cipher-tls1_1_x41",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.1   x41     TLS_RSA_WITH_CAMELLIA_128_CBC_SHA                 RSA        Camellia    128"
+                           },{
+                                "id"           : "cipher-tls1_2_xc030",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   xc030   TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             ECDH 256   AESGCM      256"
+                           },{
+                                "id"           : "cipher-tls1_2_xc028",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   xc028   TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384             ECDH 256   AES         256"
+                           },{
+                                "id"           : "cipher-tls1_2_xc014",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   xc014   TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA                ECDH 256   AES         256"
+                           },{
+                                "id"           : "cipher-tls1_2_x9f",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x9f     TLS_DHE_RSA_WITH_AES_256_GCM_SHA384               DH 2048    AESGCM      256"
+                           },{
+                                "id"           : "cipher-tls1_2_x6b",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x6b     TLS_DHE_RSA_WITH_AES_256_CBC_SHA256               DH 2048    AES         256"
+                           },{
+                                "id"           : "cipher-tls1_2_x39",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x39     TLS_DHE_RSA_WITH_AES_256_CBC_SHA                  DH 2048    AES         256"
+                           },{
+                                "id"           : "cipher-tls1_2_x88",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x88     TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA             DH 2048    Camellia    256"
+                           },{
+                                "id"           : "cipher-tls1_2_x35",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x35     TLS_RSA_WITH_AES_256_CBC_SHA                      RSA        AES         256"
+                           },{
+                                "id"           : "cipher-tls1_2_x84",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x84     TLS_RSA_WITH_CAMELLIA_256_CBC_SHA                 RSA        Camellia    256"
+                           },{
+                                "id"           : "cipher-tls1_2_xc02f",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   xc02f   TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             ECDH 256   AESGCM      128"
+                           },{
+                                "id"           : "cipher-tls1_2_xc027",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   xc027   TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256             ECDH 256   AES         128"
+                           },{
+                                "id"           : "cipher-tls1_2_xc013",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   xc013   TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA                ECDH 256   AES         128"
+                           },{
+                                "id"           : "cipher-tls1_2_x9e",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x9e     TLS_DHE_RSA_WITH_AES_128_GCM_SHA256               DH 2048    AESGCM      128"
+                           },{
+                                "id"           : "cipher-tls1_2_x67",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x67     TLS_DHE_RSA_WITH_AES_128_CBC_SHA256               DH 2048    AES         128"
+                           },{
+                                "id"           : "cipher-tls1_2_x33",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x33     TLS_DHE_RSA_WITH_AES_128_CBC_SHA                  DH 2048    AES         128"
+                           },{
+                                "id"           : "cipher-tls1_2_x9a",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x9a     TLS_DHE_RSA_WITH_SEED_CBC_SHA                     DH 2048    SEED        128"
+                           },{
+                                "id"           : "cipher-tls1_2_x45",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x45     TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA             DH 2048    Camellia    128"
+                           },{
+                                "id"           : "cipher-tls1_2_x9c",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x9c     TLS_RSA_WITH_AES_128_GCM_SHA256                   RSA        AESGCM      128"
+                           },{
+                                "id"           : "cipher-tls1_2_x2f",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x2f     TLS_RSA_WITH_AES_128_CBC_SHA                      RSA        AES         128"
+                           },{
+                                "id"           : "cipher-tls1_2_x96",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x96     TLS_RSA_WITH_SEED_CBC_SHA                         RSA        SEED        128"
+                           },{
+                                "id"           : "cipher-tls1_2_x41",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.2   x41     TLS_RSA_WITH_CAMELLIA_128_CBC_SHA                 RSA        Camellia    128"
+                           },{
+                                "id"           : "cipher-tls1_3_x1302",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.3   x1302   TLS_AES_256_GCM_SHA384                            ECDH 256   AESGCM      256"
+                           },{
+                                "id"           : "cipher-tls1_3_x1303",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.3   x1303   TLS_CHACHA20_POLY1305_SHA256                      ECDH 256   ChaCha20    256"
+                           },{
+                                "id"           : "cipher-tls1_3_x1301",
+                                "severity"     : "INFO",
+                                "finding"      : "TLS 1.3   x1301   TLS_AES_128_GCM_SHA256                            ECDH 256   AESGCM      128"
+                           }
+                    ],
+                    "browserSimulations": [
+
+                    ]
+          }
+          ],
+                    "scanTime"  : 32
+}

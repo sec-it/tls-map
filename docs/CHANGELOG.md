@@ -1,3 +1,5 @@
+# Changelog
+
 ## [Unreleased]
 
 ## [1.2.0]
@@ -10,7 +12,11 @@ Additions:
 
 Documentation:
 
-- change yard doc format from rdoc to markdown
+- Change yard doc format from rdoc to markdown
+
+Quality:
+
+- Create unit tests
 
 ## [1.1.0]
 

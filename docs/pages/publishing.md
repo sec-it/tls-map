@@ -16,6 +16,12 @@ On new release don't forget to rebuild the library documentation:
 $ bundle exec yard doc
 ```
 
+And to be sure all tests pass!
+
+```plaintext
+$ rake test
+```
+
 ## On BlackArch
 
 BA process
@@ -24,4 +30,10 @@ On new release don't forget to rebuild the library documentation:
 
 ```plaintext
 $ bundle exec yard doc
+```
+
+And to be sure all tests pass!
+
+```plaintext
+$ rake test
 ```
