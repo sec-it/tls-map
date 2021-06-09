@@ -19,11 +19,11 @@ module TLSmap
   class App
     # Will automatically fetch source files and parse them.
     def initialize
-      @iana_file = tmpfile('iana', IANA_URL)
-      @openssl_file = tmpfile('openssl', OPENSSL_URL)
-      @openssl_file2 = tmpfile('openssl', OPENSSL_URL2)
-      @gnutls_file = tmpfile('gnutls', GNUTLS_URL)
-      @nss_file = tmpfile('nss', NSS_URL)
+      @iana_file = Utils.tmpfile('iana', IANA_URL)
+      @openssl_file = Utils.tmpfile('openssl', OPENSSL_URL)
+      @openssl_file2 = Utils.tmpfile('openssl', OPENSSL_URL2)
+      @gnutls_file = Utils.tmpfile('gnutls', GNUTLS_URL)
+      @nss_file = Utils.tmpfile('nss', NSS_URL)
 
       @tls_map = []
       parse

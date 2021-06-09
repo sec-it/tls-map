@@ -74,11 +74,6 @@
   
 
   
-  <dl>
-    <dt>Included in:</dt>
-    <dd><span class='object_link'><a href="App.html" title="TLSmap::App (class)">App</a></span>, <span class='object_link'><a href="App/Extended.html" title="TLSmap::App::Extended (class)">App::Extended</a></span></dd>
-  </dl>
-  
 
   
   <dl>
@@ -107,7 +102,7 @@
 
   
     <h2>
-      Instance Method Summary
+      Class Method Summary
       <small><a href="#" class="summary_toggle">collapse</a></small>
     </h2>
 
@@ -116,7 +111,30 @@
         <li class="public ">
   <span class="summary_signature">
     
-      <a href="#tmpfile-instance_method" title="#tmpfile (instance method)">#<strong>tmpfile</strong>(name, url)  &#x21d2; Object </a>
+      <a href="#json_load_file-class_method" title="json_load_file (class method)">.<strong>json_load_file</strong>(filespec, opts = {})  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>bring JSON.load_file before ruby 3.0.0 <a href="https://ruby-doc.org/stdlib-3.0.0/libdoc/json/rdoc/JSON.html#method-i-load_file">https://ruby-doc.org/stdlib-3.0.0/libdoc/json/rdoc/JSON.html#method-i-load_file</a>.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#tmpfile-class_method" title="tmpfile (class method)">.<strong>tmpfile</strong>(name, url)  &#x21d2; Object </a>
     
 
     
@@ -140,14 +158,63 @@
 
 
 
-  <div id="instance_method_details" class="method_details_list">
-    <h2>Instance Method Details</h2>
+  <div id="class_method_details" class="method_details_list">
+    <h2>Class Method Details</h2>
 
     
       <div class="method_details first">
-  <h3 class="signature first" id="tmpfile-instance_method">
+  <h3 class="signature first" id="json_load_file-class_method">
   
-    #<strong>tmpfile</strong>(name, url)  &#x21d2; <tt>Object</tt> 
+    .<strong>json_load_file</strong>(filespec, opts = {})  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>bring JSON.load_file before ruby 3.0.0
+<a href="https://ruby-doc.org/stdlib-3.0.0/libdoc/json/rdoc/JSON.html#method-i-load_file">https://ruby-doc.org/stdlib-3.0.0/libdoc/json/rdoc/JSON.html#method-i-load_file</a></p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+21
+22
+23
+24
+25
+26
+27</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/tls_map/utils.rb', line 21</span>
+
+<span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_json_load_file'>json_load_file</span><span class='lparen'>(</span><span class='id identifier rubyid_filespec'>filespec</span><span class='comma'>,</span> <span class='id identifier rubyid_opts'>opts</span> <span class='op'>=</span> <span class='lbrace'>{</span><span class='rbrace'>}</span><span class='rparen'>)</span>
+  <span class='kw'>if</span> <span class='const'>RUBY_VERSION</span> <span class='op'>&lt;</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>3.0.0</span><span class='tstring_end'>&#39;</span></span>
+    <span class='const'>JSON</span><span class='period'>.</span><span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_read'>read</span><span class='lparen'>(</span><span class='id identifier rubyid_filespec'>filespec</span><span class='rparen'>)</span><span class='comma'>,</span> <span class='id identifier rubyid_opts'>opts</span><span class='rparen'>)</span>
+  <span class='kw'>else</span>
+    <span class='const'>JSON</span><span class='period'>.</span><span class='id identifier rubyid_load_file'>load_file</span><span class='lparen'>(</span><span class='id identifier rubyid_filespec'>filespec</span><span class='comma'>,</span> <span class='id identifier rubyid_opts'>opts</span><span class='rparen'>)</span>
+  <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="tmpfile-class_method">
+  
+    .<strong>tmpfile</strong>(name, url)  &#x21d2; <tt>Object</tt> 
   
 
   
@@ -159,17 +226,17 @@
       <pre class="lines">
 
 
-11
 12
 13
 14
 15
-16</pre>
+16
+17</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'lib/tls_map/utils.rb', line 11</span>
+      <pre class="code"><span class="info file"># File 'lib/tls_map/utils.rb', line 12</span>
 
-<span class='kw'>def</span> <span class='id identifier rubyid_tmpfile'>tmpfile</span><span class='lparen'>(</span><span class='id identifier rubyid_name'>name</span><span class='comma'>,</span> <span class='id identifier rubyid_url'>url</span><span class='rparen'>)</span>
+<span class='kw'>def</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_tmpfile'>tmpfile</span><span class='lparen'>(</span><span class='id identifier rubyid_name'>name</span><span class='comma'>,</span> <span class='id identifier rubyid_url'>url</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_tmp'>tmp</span> <span class='op'>=</span> <span class='const'>Tempfile</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='id identifier rubyid_name'>name</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_tmp'>tmp</span><span class='period'>.</span><span class='id identifier rubyid_write'>write</span><span class='lparen'>(</span><span class='const'>Net</span><span class='op'>::</span><span class='const'>HTTP</span><span class='period'>.</span><span class='id identifier rubyid_get'>get</span><span class='lparen'>(</span><span class='const'>URI</span><span class='lparen'>(</span><span class='id identifier rubyid_url'>url</span><span class='rparen'>)</span><span class='rparen'>)</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_tmp'>tmp</span><span class='period'>.</span><span class='id identifier rubyid_close'>close</span>
@@ -185,7 +252,7 @@
 </div>
 
       <div id="footer">
-  Generated on Thu May 27 15:35:08 2021 by
+  Generated on Wed Jun  9 15:38:55 2021 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.26 (ruby-3.0.1).
 </div>

@@ -45,13 +45,10 @@ module TLSmap
         2 => { title: 'High', color: :red }
       }.freeze
 
-      include Utils
-      protected :tmpfile
-
       # Will automatically fetch source files and parse them.
       def initialize
-        @tech_file = tmpfile('tech', TECH_DATA)
-        @vuln_file = tmpfile('vuln', VULN_DATA)
+        @tech_file = Utils.tmpfile('tech', TECH_DATA)
+        @vuln_file = Utils.tmpfile('vuln', VULN_DATA)
         @tech = parse_tech
         @vuln = parse_vuln
       end

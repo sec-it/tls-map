@@ -87,11 +87,6 @@
   
   
   
-  <dl>
-      <dt>Includes:</dt>
-      <dd><span class='object_link'><a href="Utils.html" title="TLSmap::Utils (module)">Utils</a></span></dd>
-  </dl>
-  
   
 
   
@@ -100,7 +95,7 @@
   <dl>
     <dt>Defined in:</dt>
     <dd>lib/tls_map.rb<span class="defines">,<br />
-  lib/tls_map/nss.rb,<br /> lib/tls_map/iana.rb,<br /> lib/tls_map/utils.rb,<br /> lib/tls_map/gnutls.rb,<br /> lib/tls_map/output.rb,<br /> lib/tls_map/openssl.rb,<br /> lib/tls_map/extractor.rb,<br /> lib/tls_map/ciphersuiteinfo.rb</span>
+  lib/tls_map/nss.rb,<br /> lib/tls_map/iana.rb,<br /> lib/tls_map/gnutls.rb,<br /> lib/tls_map/output.rb,<br /> lib/tls_map/openssl.rb,<br /> lib/tls_map/extractor.rb,<br /> lib/tls_map/ciphersuiteinfo.rb</span>
 </dd>
   </dl>
   
@@ -195,6 +190,29 @@ so use github RO mirror instead.</p>
         <li class="public ">
   <span class="summary_signature">
     
+      <a href="#bulk_search-instance_method" title="#bulk_search (instance method)">#<strong>bulk_search</strong>(critera, file, output = :all)  &#x21d2; Array&lt;Hash&gt; </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>Search for corresponding cipher algorithms in other libraries in bulk.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
       <a href="#export-instance_method" title="#export (instance method)">#<strong>export</strong>(filename, format)  &#x21d2; Object </a>
     
 
@@ -266,17 +284,6 @@ so use github RO mirror instead.</p>
     </ul>
   
 
-
-  
-  
-  
-  
-  
-  
-  
-  
-  <h3 class="inherited">Methods included from <span class='object_link'><a href="Utils.html" title="TLSmap::Utils (module)">Utils</a></span></h3>
-  <p class="inherited"><span class='object_link'><a href="Utils.html#tmpfile-instance_method" title="TLSmap::Utils#tmpfile (method)">#tmpfile</a></span></p>
 <div id="constructor_details" class="method_details_list">
   <h2>Constructor Details</h2>
   
@@ -320,11 +327,11 @@ so use github RO mirror instead.</p>
       <pre class="code"><span class="info file"># File 'lib/tls_map.rb', line 21</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_initialize'>initialize</span>
-  <span class='ivar'>@iana_file</span> <span class='op'>=</span> <span class='id identifier rubyid_tmpfile'>tmpfile</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>iana</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="#IANA_URL-constant" title="TLSmap::App::IANA_URL (constant)">IANA_URL</a></span></span><span class='rparen'>)</span>
-  <span class='ivar'>@openssl_file</span> <span class='op'>=</span> <span class='id identifier rubyid_tmpfile'>tmpfile</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>openssl</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="#OPENSSL_URL-constant" title="TLSmap::App::OPENSSL_URL (constant)">OPENSSL_URL</a></span></span><span class='rparen'>)</span>
-  <span class='ivar'>@openssl_file2</span> <span class='op'>=</span> <span class='id identifier rubyid_tmpfile'>tmpfile</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>openssl</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="#OPENSSL_URL2-constant" title="TLSmap::App::OPENSSL_URL2 (constant)">OPENSSL_URL2</a></span></span><span class='rparen'>)</span>
-  <span class='ivar'>@gnutls_file</span> <span class='op'>=</span> <span class='id identifier rubyid_tmpfile'>tmpfile</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>gnutls</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="#GNUTLS_URL-constant" title="TLSmap::App::GNUTLS_URL (constant)">GNUTLS_URL</a></span></span><span class='rparen'>)</span>
-  <span class='ivar'>@nss_file</span> <span class='op'>=</span> <span class='id identifier rubyid_tmpfile'>tmpfile</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>nss</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="#NSS_URL-constant" title="TLSmap::App::NSS_URL (constant)">NSS_URL</a></span></span><span class='rparen'>)</span>
+  <span class='ivar'>@iana_file</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="Utils.html" title="TLSmap::Utils (module)">Utils</a></span></span><span class='period'>.</span><span class='id identifier rubyid_tmpfile'><span class='object_link'><a href="Utils.html#tmpfile-class_method" title="TLSmap::Utils.tmpfile (method)">tmpfile</a></span></span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>iana</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="#IANA_URL-constant" title="TLSmap::App::IANA_URL (constant)">IANA_URL</a></span></span><span class='rparen'>)</span>
+  <span class='ivar'>@openssl_file</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="Utils.html" title="TLSmap::Utils (module)">Utils</a></span></span><span class='period'>.</span><span class='id identifier rubyid_tmpfile'><span class='object_link'><a href="Utils.html#tmpfile-class_method" title="TLSmap::Utils.tmpfile (method)">tmpfile</a></span></span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>openssl</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="#OPENSSL_URL-constant" title="TLSmap::App::OPENSSL_URL (constant)">OPENSSL_URL</a></span></span><span class='rparen'>)</span>
+  <span class='ivar'>@openssl_file2</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="Utils.html" title="TLSmap::Utils (module)">Utils</a></span></span><span class='period'>.</span><span class='id identifier rubyid_tmpfile'><span class='object_link'><a href="Utils.html#tmpfile-class_method" title="TLSmap::Utils.tmpfile (method)">tmpfile</a></span></span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>openssl</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="#OPENSSL_URL2-constant" title="TLSmap::App::OPENSSL_URL2 (constant)">OPENSSL_URL2</a></span></span><span class='rparen'>)</span>
+  <span class='ivar'>@gnutls_file</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="Utils.html" title="TLSmap::Utils (module)">Utils</a></span></span><span class='period'>.</span><span class='id identifier rubyid_tmpfile'><span class='object_link'><a href="Utils.html#tmpfile-class_method" title="TLSmap::Utils.tmpfile (method)">tmpfile</a></span></span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>gnutls</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="#GNUTLS_URL-constant" title="TLSmap::App::GNUTLS_URL (constant)">GNUTLS_URL</a></span></span><span class='rparen'>)</span>
+  <span class='ivar'>@nss_file</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="Utils.html" title="TLSmap::Utils (module)">Utils</a></span></span><span class='period'>.</span><span class='id identifier rubyid_tmpfile'><span class='object_link'><a href="Utils.html#tmpfile-class_method" title="TLSmap::Utils.tmpfile (method)">tmpfile</a></span></span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>nss</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='const'><span class='object_link'><a href="#NSS_URL-constant" title="TLSmap::App::NSS_URL (constant)">NSS_URL</a></span></span><span class='rparen'>)</span>
 
   <span class='ivar'>@tls_map</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span>
   <span class='id identifier rubyid_parse'>parse</span>
@@ -342,7 +349,127 @@ so use github RO mirror instead.</p>
 
     
       <div class="method_details first">
-  <h3 class="signature first" id="export-instance_method">
+  <h3 class="signature first" id="bulk_search-instance_method">
+  
+    #<strong>bulk_search</strong>(critera, file, output = :all)  &#x21d2; <tt>Array&lt;Hash&gt;</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Search for corresponding cipher algorithms in other libraries in bulk</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>critera</span>
+      
+      
+        <span class='type'>(<tt>Symbol</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>The type of <code>term</code>.
+Accepted values: <code>:codepoint</code>, <code>:iana</code>, <code>:openssl</code>, <code>:gnutls</code>, <code>:nss</code>.</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>file</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>File containing the cipher algorithm names, one per line.</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>output</span>
+      
+      
+        <span class='type'>(<tt>Symbol</tt>)</span>
+      
+      
+        <em class="default">(defaults to: <tt>:all</tt>)</em>
+      
+      
+        &mdash;
+        <div class='inline'><p>The corresponding type to be included in the return value.
+Accepted values: <code>:all</code> (default), <code>:codepoint</code>, <code>:iana</code>, <code>:openssl</code>,
+<code>:gnutls</code>, <code>:nss</code>.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;Hash&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>The corresponding type, same as <span class='object_link'><a href="#search-instance_method" title="TLSmap::App#search (method)">#search</a></span> return value
+but one per line stored in an array.</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+67
+68
+69
+70
+71
+72
+73</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lib/tls_map.rb', line 67</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_bulk_search'>bulk_search</span><span class='lparen'>(</span><span class='id identifier rubyid_critera'>critera</span><span class='comma'>,</span> <span class='id identifier rubyid_file'>file</span><span class='comma'>,</span> <span class='id identifier rubyid_output'>output</span> <span class='op'>=</span> <span class='symbol'>:all</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_res'>res</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span>
+  <span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_foreach'>foreach</span><span class='lparen'>(</span><span class='id identifier rubyid_file'>file</span><span class='rparen'>)</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_line'>line</span><span class='op'>|</span>
+    <span class='id identifier rubyid_res'>res</span><span class='period'>.</span><span class='id identifier rubyid_push'>push</span><span class='lparen'>(</span><span class='id identifier rubyid_search'>search</span><span class='lparen'>(</span><span class='id identifier rubyid_critera'>critera</span><span class='comma'>,</span> <span class='id identifier rubyid_line'>line</span><span class='period'>.</span><span class='id identifier rubyid_chomp'>chomp</span><span class='comma'>,</span> <span class='id identifier rubyid_output'>output</span><span class='rparen'>)</span><span class='rparen'>)</span>
+  <span class='kw'>end</span>
+  <span class='id identifier rubyid_res'>res</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="export-instance_method">
   
     #<strong>export</strong>(filename, format)  &#x21d2; <tt>Object</tt> 
   
@@ -559,7 +686,7 @@ Accepted values: <code>:all</code> (default), <code>:codepoint</code>, <code>:ia
 </div>
 
       <div id="footer">
-  Generated on Thu May 27 15:35:09 2021 by
+  Generated on Wed Jun  9 15:38:55 2021 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.26 (ruby-3.0.1).
 </div>

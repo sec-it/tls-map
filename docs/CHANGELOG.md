@@ -2,9 +2,15 @@
 
 ## [Unreleased]
 
+## [1.3.1]
+
 Fixes:
 
 - `JSON.load_file()` is only available since Ruby 3.0 so `Utils.json_load_file()` was created to bring compatibility with Ruby 2.X
+
+Chore:
+
+- Convert `Utils` methods as module methods instead of instance methods
 
 ## [1.3.0]
 

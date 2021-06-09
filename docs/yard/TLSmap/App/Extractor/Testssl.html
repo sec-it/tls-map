@@ -550,7 +550,7 @@ See <span class='object_link'><a href="../Extractor.html" title="TLSmap::App::Ex
       <pre class="code"><span class="info file"># File 'lib/tls_map/extractor.rb', line 166</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_parse'>parse</span><span class='lparen'>(</span><span class='id identifier rubyid_file'>file</span><span class='rparen'>)</span>
-  <span class='id identifier rubyid_data'>data</span> <span class='op'>=</span> <span class='const'>JSON</span><span class='period'>.</span><span class='id identifier rubyid_load_file'>load_file</span><span class='lparen'>(</span><span class='id identifier rubyid_file'>file</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_data'>data</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="../../Utils.html" title="TLSmap::Utils (module)">Utils</a></span></span><span class='period'>.</span><span class='id identifier rubyid_json_load_file'><span class='object_link'><a href="../../Utils.html#json_load_file-class_method" title="TLSmap::Utils.json_load_file (method)">json_load_file</a></span></span><span class='lparen'>(</span><span class='id identifier rubyid_file'>file</span><span class='rparen'>)</span>
   <span class='id identifier rubyid_extract_cipher'>extract_cipher</span><span class='lparen'>(</span><span class='id identifier rubyid_data'>data</span><span class='rparen'>)</span>
 <span class='kw'>end</span></pre>
     </td>
@@ -563,7 +563,7 @@ See <span class='object_link'><a href="../Extractor.html" title="TLSmap::App::Ex
 </div>
 
       <div id="footer">
-  Generated on Thu May 27 15:35:09 2021 by
+  Generated on Wed Jun  9 15:38:55 2021 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.26 (ruby-3.0.1).
 </div>

@@ -9,7 +9,7 @@ require 'json'
 module TLSmap
   # Generic utilities
   module Utils
-    def tmpfile(name, url)
+    def self.tmpfile(name, url)
       tmp = Tempfile.new(name)
       tmp.write(Net::HTTP.get(URI(url)))
       tmp.close
@@ -25,11 +25,5 @@ module TLSmap
         JSON.load_file(filespec, opts)
       end
     end
-  end
-
-  # TLS mapping
-  class App
-    include Utils
-    protected :tmpfile
   end
 end
