@@ -97,7 +97,7 @@ module TLSmap
           #   See {TLSmap::App::Extractor}
           # @return [Array<String>] Cipher array (IANA names)
           def parse(file)
-            data = JSON.load_file(file)
+            data = Utils.json_load_file(file)
             extract_cipher(data)
           end
 
@@ -164,7 +164,7 @@ module TLSmap
           #   See {TLSmap::App::Extractor}
           # @return [Array<String>] Cipher array (IANA names)
           def parse(file)
-            data = JSON.load_file(file)
+            data = Utils.json_load_file(file)
             extract_cipher(data)
           end
 
@@ -214,7 +214,7 @@ module TLSmap
           #   See {TLSmap::App::Extractor}
           # @return [Array<String>] Cipher array (IANA names)
           def parse(file)
-            data = JSON.load_file(file)
+            data = Utils.json_load_file(file)
             extract_cipher(data)
           end
 
