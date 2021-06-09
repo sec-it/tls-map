@@ -120,7 +120,7 @@ TLS_AES_256_GCM_SHA384
 TLS_CHACHA20_POLY1305_SHA256
 TLS_AES_128_GCM_SHA256
 
-$ tls-map extract oldwebsite.json ssllabs-scan 
+$ tls-map extract oldwebsite.json ssllabs-scan
 SSL2.0
 SSL_CK_RC4_128_WITH_MD5
 SSL_CK_DES_192_EDE3_CBC_WITH_MD5
@@ -151,6 +151,31 @@ and integrity check is done so if the file is modified the tool will refuse to
 word so you have to use the `--force` option every time to bypass the security
 check. So it is recommended to not use the update command and wait for official
 release.
+
+### Bulk search
+
+Search and translate cipher names between SSL/TLS libraries **in bulk**
+
+`test/file_sample/bulk_IANA.txt`
+
+```
+TLS_DH_RSA_WITH_AES_256_CBC_SHA
+TLS_RSA_WITH_RC4_128_SHA
+TLS_RSA_WITH_AES_128_CBC_SHA
+TLS_INVALID
+TLS_CHACHA20_POLY1305_SHA256
+TLS_AES_256_GCM_SHA384
+```
+
+```
+$ tls-map bulk iana test/file_sample/bulk_IANA.txt -q openssl
+DH-RSA-AES256-SHA
+RC4-SHA
+AES128-SHA
+
+TLS_CHACHA20_POLY1305_SHA256
+TLS_AES_256_GCM_SHA384
+```
 
 ## Library
 
@@ -242,7 +267,7 @@ extractor.parse('ssllabs-scan', 'oldwebsite.json')
 
 # Access to all extracted ciphers
 extractor.ciphers
-=> 
+=>
 # {"SSL2.0"=>["SSL_CK_RC4_128_WITH_MD5", "SSL_CK_DES_192_EDE3_CBC_WITH_MD5"],
 #  "SSL3.0"=>["TLS_RSA_WITH_3DES_EDE_CBC_SHA", "TLS_RSA_WITH_RC4_128_SHA", "TLS_RSA_WITH_RC4_128_MD5"],
 #  "TLS1.0"=>
@@ -262,4 +287,27 @@ extractor.ciphers
 # Access only SSL 2.0 ciphers
 extractor.ssl20
 # => ["SSL_CK_RC4_128_WITH_MD5", "SSL_CK_DES_192_EDE3_CBC_WITH_MD5"]
+```
+
+Search and translate cipher names between SSL/TLS libraries **in bulk**:
+
+```ruby
+require 'tls_map'
+
+tm = TLSmap::App.new
+
+tm.bulk_search(:iana, 'test/file_sample/bulk_IANA.txt', :openssl)
+# => [{:openssl=>"DH-RSA-AES256-SHA"}, {:openssl=>"RC4-SHA"}, {:openssl=>"AES128-SHA"}, {}, {:openssl=>"TLS_CHACHA20_POLY1305_SHA256"}, {:openssl=>"TLS_AES_256_GCM_SHA384"}]
+
+tm.bulk_search(:iana, 'test/file_sample/bulk_IANA.txt', :codepoint)
+# => [{:codepoint=>"0037"}, {:codepoint=>"0005"}, {:codepoint=>"002F"}, {}, {:codepoint=>"1303"}, {:codepoint=>"1302"}]
+
+tm.bulk_search(:iana, 'test/file_sample/bulk_IANA.txt')
+# =>
+# [{:codepoint=>"0037", :iana=>"TLS_DH_RSA_WITH_AES_256_CBC_SHA", :openssl=>"DH-RSA-AES256-SHA", :gnutls=>nil, # :nss=>"TLS_DH_RSA_WITH_AES_256_CBC_SHA"},
+#  {:codepoint=>"0005", :iana=>"TLS_RSA_WITH_RC4_128_SHA", :openssl=>"RC4-SHA", :gnutls=>"RSA_ARCFOUR_128_SHA1", # :nss=>"TLS_RSA_WITH_RC4_128_SHA"},
+#  {:codepoint=>"002F", :iana=>"TLS_RSA_WITH_AES_128_CBC_SHA", :openssl=>"AES128-SHA", :gnutls=>"RSA_AES_128_CBC_SHA1", # :nss=>"TLS_RSA_WITH_AES_128_CBC_SHA"},
+#  {},
+#  {:codepoint=>"1303", :iana=>"TLS_CHACHA20_POLY1305_SHA256", :openssl=>"TLS_CHACHA20_POLY1305_SHA256", # :gnutls=>"CHACHA20_POLY1305_SHA256", :nss=>"TLS_CHACHA20_POLY1305_SHA256"},
+#  {:codepoint=>"1302", :iana=>"TLS_AES_256_GCM_SHA384", :openssl=>"TLS_AES_256_GCM_SHA384", :gnutls=>"AES_256_GCM_SHA384", # :nss=>"TLS_AES_256_GCM_SHA384"}]
 ```

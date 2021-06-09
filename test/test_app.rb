@@ -17,6 +17,18 @@ class TLSmapAppTest < Minitest::Test
     assert_equal({:codepoint=>"1302", :iana=>"TLS_AES_256_GCM_SHA384", :openssl=>"TLS_AES_256_GCM_SHA384", :gnutls=>"AES_256_GCM_SHA384", :nss=>"TLS_AES_256_GCM_SHA384"}, @tm.search(:nss, 'TLS_AES_256_GCM_SHA384'))
   end
 
+  def test_App_bulk_search
+    res = @tm.bulk_search(:iana, 'test/file_sample/bulk_IANA.txt', :openssl)
+    assert_equal({:openssl=>"DH-RSA-AES256-SHA"}, res[0])
+    assert_equal({:openssl=>"RC4-SHA"}, res[1])
+    assert_equal({:openssl=>"AES128-SHA"}, res[2])
+    assert_equal({}, res[3])
+    res = @tm.bulk_search(:iana, 'test/file_sample/bulk_IANA.txt', :codepoint)
+    assert_equal({:codepoint=>"1303"}, res[4])
+    res = @tm.bulk_search(:iana, 'test/file_sample/bulk_IANA.txt', :iana)
+    assert_equal({:iana=>"TLS_AES_256_GCM_SHA384"}, res[5])
+  end
+
   def test_App_export
     formats = [:markdown, :json_pretty, :json_compact, :marshal]
     formats.each do |format|

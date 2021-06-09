@@ -4,10 +4,11 @@
 
 ```plaintext
 $ tls-map --help
-TLS map 1.2.0
+TLS map 1.3.0
 
 Usage:
   tls-map search <critera> <term> [-o <output> --force -e -a] [--no-color --debug]
+  tls-map bulk <critera> <file> [-q <output> --force] [--no-color --debug]
   tls-map export <filename> <format> [--force] [--debug]
   tls-map extract <filename> <format> [--no-color --debug]
   tls-map update [--debug]
@@ -21,6 +22,11 @@ Search options: (offline) search and translate cipher names between SSL/TLS libr
   -e, --extended          (Online) Display additional information about the cipher (requires output = all or iana)
   -a, --acronym           (Online) Display full acronym name (requires -e / --extended option)
 
+Bulk options: (offline) search and translate cipher names between SSL/TLS libraries in bulk
+  <critera>               The type of term. Accepted values: codepoint, iana, openssl, gnutls, nss.
+  <file>                  File containing the cipher algorithm names, one per line.
+  -q, --output2 <output>  Displayed fields. Accepted values: codepoint, iana, openssl, gnutls, nss. [default: iana]
+
 Export options: (offline) export the list of all ciphers (mapping) in various formats
   <filename>              The output file name to write to.
   <format>                Supported formats: markdown (a markdown table), json_pretty (expanded JSON), json_compact (minified JSON), marshal (Ruby marshalized hash).
@@ -32,7 +38,7 @@ Extract options: (offline) extract ciphers from external tools output file
 Update options: (online) DANGEROUS, will break database integrity, force option will be required
 
 Other options:
-  --force     Force parsing even if intigrity check failed (DANGEROUS, may result in command execution vulnerability)
+  --force     Force parsing even if integrity check failed (DANGEROUS, may result in command execution vulnerability)
   --no-color  Disable colorized output
   --debug     Display arguments
   -h, --help  Show this screen

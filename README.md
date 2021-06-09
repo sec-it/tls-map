@@ -25,7 +25,10 @@
 
 - CLI and library
 - Search feature: hexadecimal codepoint and major TLS libraries cipher algorithm name: IANA, OpenSSL, GnuTLS, NSS
+  - get extra info about a cipher
 - Export to files: markdown table, expanded JSON, minified JSON, Ruby marshalized hash
+- Extract ciphers from external tools file output (SSLyze, sslscan2, testssl.sh, ssllabs-scan)
+- Bulk search (file with one cipher per line)
 
 ## Installation
 

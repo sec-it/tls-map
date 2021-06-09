@@ -55,6 +55,23 @@ module TLSmap
       {}
     end
 
+    # Search for corresponding cipher algorithms in other libraries in bulk
+    # @param critera [Symbol] The type of `term`.
+    #   Accepted values: `:codepoint`, `:iana`, `:openssl`, `:gnutls`, `:nss`.
+    # @param file [String] File containing the cipher algorithm names, one per line.
+    # @param output [Symbol] The corresponding type to be included in the return value.
+    #   Accepted values: `:all` (default), `:codepoint`, `:iana`, `:openssl`,
+    #   `:gnutls`, `:nss`.
+    # @return [Array<Hash>] The corresponding type, same as {search} return value
+    #   but one per line stored in an array.
+    def bulk_search(critera, file, output = :all)
+      res = []
+      File.foreach(file) do |line|
+        res.push(search(critera, line.chomp, output))
+      end
+      res
+    end
+
     protected :parse
   end
 end

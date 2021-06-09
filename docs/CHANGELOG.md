@@ -2,6 +2,17 @@
 
 ## [Unreleased]
 
+## [1.3.0]
+
+Additions:
+
+- add `bulk_search()` method for bulk search (file with one cipher per line)
+  - new `bulk` CLI command
+
+Documentation:
+
+- add `webrick` in dev dependencies to be able to use `yard server`
+
 ## [1.2.0]
 
 Additions:
