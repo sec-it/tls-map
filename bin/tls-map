@@ -93,7 +93,7 @@ begin
     res = cli.bulk_search(args['<critera>'].to_sym, args['<file>'], args['--output2'].to_sym)
     puts Paint['No match found', :red] if res.empty?
     res.each do |h|
-      puts "#{Paint[h[args['--output2'].to_sym], :green]}"
+      puts Paint[h[args['--output2'].to_sym], :green]
     end
   elsif args['export']
     cli = TLSmap::CLI.new(args['--force'])
