@@ -32,15 +32,4 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('docopt', '~> 0.6') # for argument parsing
   s.add_runtime_dependency('paint', '~> 2.2') # for colorized ouput
   s.add_runtime_dependency('rexml', '~> 3.2') # XML parser
-
-  s.add_development_dependency('bundler', ['>= 2.1.0', '< 2.3'])
-  s.add_development_dependency('commonmarker', '~> 0.21') # for GMF support in YARD
-  s.add_development_dependency('github-markup', '~> 4.0') # for GMF support in YARD
-  s.add_development_dependency('minitest', '~> 5.12') # unit tests
-  s.add_development_dependency('minitest-skip', '~> 0.0') # skip dummy tests
-  s.add_development_dependency('rake', '~> 13.0') # used to run tests
-  s.add_development_dependency('redcarpet', '~> 3.5') # for GMF support in YARD
-  s.add_development_dependency('rubocop', '~> 1.10') # lint
-  s.add_development_dependency('webrick', '~> 1.7') # for server support in YARD
-  s.add_development_dependency('yard', '~> 0.9')
 end

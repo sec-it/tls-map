@@ -8,6 +8,11 @@ Additions:
 
 - add `helper()` method to `TLSmap::App::Extractor` so it will display a useful error message when the wrong format is provided.
 
+Chore:
+
+- New dependency requirement architecture: runtime dependencies are set both in `.gemspec` + `Gemfile` while development ones are set in `Gemfile` only.
+- `Gemfile` dependencies are categorized in groups. So it's now possible to exclude the _docs_ group while installing in a CI while keeping _test_ and _lint_. `.gempsec` is only able to create _runtime_ and _development_ but not custom groups.
+
 ## [1.3.1]
 
 Fixes:
