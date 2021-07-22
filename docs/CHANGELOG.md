@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.3.2]
+
+Additions:
+
+- add `helper()` method to `TLSmap::App::Extractor` so it will display a useful error message when the wrong format is provided.
+
 ## [1.3.1]
 
 Fixes:

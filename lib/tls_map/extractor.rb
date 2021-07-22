@@ -80,6 +80,26 @@ module TLSmap
       def parse(tool, file)
         # Convert string to class
         @ciphers = Object.const_get("TLSmap::App::Extractor::#{normalize(tool)}").parse(file)
+      rescue StandardError
+        warn helper(tool)
+      end
+
+      # Commands for {helper}
+      CMD = {
+        'sslyze' => 'sslyze --json_out=example.org.json example.org',
+        'sslscan2' => 'sslscan2 --show-cipher-ids --xml=example.org.xml example.org',
+        'testssl' => 'testssl --jsonfile-pretty example.org.json --mapping no-openssl --cipher-per-proto example.org',
+        'ssllabs-scan' => 'ssllabs-scan --quiet example.org > example.org.json'
+      }.freeze
+
+      # Get the external tool command used to generate the expected result format
+      # @param tool [String] Possible values: `sslyze`, `sslscan2`, `testssl`, `ssllabs-scan`
+      # @return [String] external tool command used to generate the expected result format used in input of the extract
+      #   command (CLI) / {parse} method (library)
+      def helper(tool)
+        intro = 'You may not be provinding the right format.'
+        outro = 'See https://sec-it.github.io/tls-map/yard/TLSmap/App/Extractor'
+        "#{intro}\nUse this command: #{CMD[tool]}\n#{outro}"
       end
 
       # Convert cmdline tool name to Class name
@@ -87,7 +107,8 @@ module TLSmap
         tool.split('-').map(&:capitalize).join
       end
 
-      protected :normalize
+      protected :normalize, :helper
+      private_constant :CMD
 
       # Parsing SSLyze
       class Sslyze
